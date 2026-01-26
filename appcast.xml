@@ -3,13 +3,13 @@
     <channel>
         <item>
             <title>26.1.30</title>
-            <pubDate>Mon, 26 Jan 2026 07:02:39 +0000</pubDate>
+            <pubDate>Mon, 26 Jan 2026 07:31:03 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26130</sparkle:version>
             <sparkle:shortVersionString>26.1.30</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.30</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.30/VEAI.dmg" length="10385974" type="application/octet-stream" sparkle:edSignature="TCZORYhmb57mn7J82ZyxViEImedWl2JKKlTzD21FXmWqUWeTw9eYvo62WJFEnStHQ1KoN8eL63JwDpRJO8swDw=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.30/VE.dmg" length="10388076" type="application/octet-stream" sparkle:edSignature="DZwuYuSsF2U0yCg8GgjlKby+bHz9+HN8GmmNGYnNrDaa8jx8s8PKy4zOsayae1N5rV21prJVtRX+lYx2djAyDg=="/>
         </item>
 
         <item>
@@ -20,7 +20,7 @@
             <sparkle:shortVersionString>26.1.29</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.29</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.29/VEAI.dmg" length="10386183" type="application/octet-stream" sparkle:edSignature="XTxyyZi9OY5oIWW4qPpSFNyQa4dKWYef1bSDXo2aNMXHVys8iQHaqnumbJGiexht3OcoTQvIWiF+yFOWMQyYCA=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.29/VE.dmg" length="10386183" type="application/octet-stream" sparkle:edSignature="XTxyyZi9OY5oIWW4qPpSFNyQa4dKWYef1bSDXo2aNMXHVys8iQHaqnumbJGiexht3OcoTQvIWiF+yFOWMQyYCA=="/>
         </item>
 
         </channel>
