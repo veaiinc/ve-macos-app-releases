@@ -2,6 +2,17 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.33</title>
+            <pubDate>Tue, 27 Jan 2026 09:09:58 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26133</sparkle:version>
+            <sparkle:shortVersionString>26.1.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VEAI v26.1.33</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.33/VE.dmg" length="10483709" type="application/octet-stream" sparkle:edSignature="yedbzni0EhQKJGRD+/ZrcAbWCRwV6rkfc0mIKKqJk8ZrvakeEMH2GerqqcKuSi1Ajn+O4ObO5KhyYSEJ1CCEDQ=="/>
+        </item>
+
+        <item>
             <title>26.1.32</title>
             <pubDate>Mon, 26 Jan 2026 14:42:36 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
