@@ -2,14 +2,25 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.35</title>
+            <pubDate>Tue, 27 Jan 2026 14:46:40 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26135</sparkle:version>
+            <sparkle:shortVersionString>26.1.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VEAI v26.1.35</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.35/VE.dmg" length="10415979" type="application/octet-stream" sparkle:edSignature="6O2JraY6klFqk6KfYuEIjsZ7iAe9FQxULfyYNxju+htyK3JwDGYR2lYaNRCpILE3GdNPE4IixwbIgTFlyVmGBQ=="/>
+        </item>
+
+        <item>
             <title>26.1.34</title>
-            <pubDate>Tue, 27 Jan 2026 12:32:47 +0000</pubDate>
+            <pubDate>Tue, 27 Jan 2026 09:20:10 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26134</sparkle:version>
             <sparkle:shortVersionString>26.1.34</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.34</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.34/VE.dmg" length="10406760" type="application/octet-stream" sparkle:edSignature="pkYPCvwrzX3cL0FyAoOEcdhnkCLxs6xiBDfVxKweKTYg7g/fqy1OFAdt6RdmQ4Vc1vMmmqap5yVvU3hUvM93CA=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.34/VE.dmg" length="10483241" type="application/octet-stream" sparkle:edSignature="yuxhjTaO0M442bH8eGH79ByTGGU/zMSPcFFMvuqzh3eFsKzZ0+Bfnk8wLLjrVlBY0JIp5yTie71WW5/BH45RBQ=="/>
         </item>
 
         <item>
