@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.36</title>
+            <pubDate>Wed, 28 Jan 2026 06:46:16 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26136</sparkle:version>
+            <sparkle:shortVersionString>26.1.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.36</h2><p>What's new in this release:</p><ul><li>Release app cast</li>
+<li>35 Release</li>
+<li>Removed Help Center from settings View</li>
+<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
+<li>Intercom</li>
+<li>Restart and Intercom issues</li>
+<li>fixed empty text case</li>
+<li>added meeting mode</li>
+<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li>
+<li>About Dialog</li>
+<li>Window Redirection</li>
+<li>Updater</li>
+<li>Updater and Dmg</li>
+<li>fixed height issues for steps</li>
+<li>Refactor InviteMemberModal layout in TeamMembersView. Improved email input and role picker integration, adjusted spacing, and ensured access controls are displayed conditionally based on selected role.</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.36/VE.dmg" length="10442627" type="application/octet-stream" sparkle:edSignature="MxlHME53aLHd/BQijsIxhGDCBfxlGJGfYHXmWpCS0bzgKAPcEytlaHIBcCh/c6j3ws1AK8qhQ+SuM35PGHJICQ=="/>
+        </item>
+
+        <item>
             <title>26.1.35</title>
             <pubDate>Tue, 27 Jan 2026 14:46:40 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
