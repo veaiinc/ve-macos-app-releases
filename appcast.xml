@@ -2,14 +2,39 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.41</title>
+            <pubDate>Wed, 28 Jan 2026 15:48:42 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26141</sparkle:version>
+            <sparkle:shortVersionString>26.1.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.41</h2><p>What's new in this release:</p><ul><li>Script changes</li>
+<li>Block Prediction and dicttaion when Update banner is shown</li>
+<li>Notch updates</li>
+<li>Add Home tab view and related models/services</li>
+<li>Intercom Logging</li>
+<li>resloved bluetooth connected build in mic use</li>
+<li>showing on top of fullscreen</li>
+<li>Intercom change</li>
+<li>added update ui</li>
+<li>Release</li>
+<li>Fixed</li>
+<li>Add window title retrieval to AppHelper and update UnifiedAudioService to include it in payload</li>
+<li>fixed prediictionText bug</li>
+<li>Intercom chnage version</li>
+<li>notch voice detection and error handling</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.41/VE.dmg" length="10714261" type="application/octet-stream" sparkle:edSignature="R8MGDPzbraq9uSzp1bnAdp5h9naANCJ9ey+mulS9xReVHrsl1dUIjopwtVgQcOSKouY8FOSoxPznZHdWzQG0Aw=="/>
+        </item>
+
+        <item>
             <title>26.1.40</title>
-            <pubDate>Wed, 28 Jan 2026 15:09:02 +0000</pubDate>
+            <pubDate>Wed, 28 Jan 2026 14:29:12 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26140</sparkle:version>
             <sparkle:shortVersionString>26.1.40</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.40</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.40/VE.dmg" length="10522949" type="application/octet-stream" sparkle:edSignature="D0Z2z5L3u5Fi0SE0AMKkwe0kfoiLvSI/lB4bHm6YftGddkhZWuigP8mnz8eVYStLOcJ59+VANgl+OQQ+oJaAAg=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.40/VE.dmg" length="10521719" type="application/octet-stream" sparkle:edSignature="qTBaeBphvz+UyeBT5xdpgEbBFX1l14u9/m4lq3CYG76Zh0jtBCeI8/6QnttN54+Ra19gvxTu0JZXBMoX+UD0Dg=="/>
         </item>
 
         <item>
