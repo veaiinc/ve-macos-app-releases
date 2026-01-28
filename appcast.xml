@@ -3,12 +3,13 @@
     <channel>
         <item>
             <title>26.1.38</title>
-            <pubDate>Wed, 28 Jan 2026 08:20:09 +0000</pubDate>
+            <pubDate>Wed, 28 Jan 2026 08:37:59 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26138</sparkle:version>
             <sparkle:shortVersionString>26.1.38</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.1.38</h2><p>What's new in this release:</p><ul><li>KeyHold</li>
+            <description><![CDATA[<h2>🚀 VE v26.1.38</h2><p>What's new in this release:</p><ul><li>Socket</li>
+<li>KeyHold</li>
 <li>Update and Dictation sleep Issues</li>
 <li>added enums</li>
 <li>integrated double tap with lowlevelkeytap</li>
@@ -21,9 +22,8 @@
 <li>Restart and Intercom issues</li>
 <li>fixed empty text case</li>
 <li>added meeting mode</li>
-<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li>
-<li>About Dialog</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.38/VE.dmg" length="10455460" type="application/octet-stream" sparkle:edSignature="xhuzi3cpGJai9Fxxm5bkuKXhLebRcyqMzsXybmyjIrMU2beiy0ZbFwVijFiFliTCzkGgKWf90/c3Dyd5kKFlDw=="/>
+<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.38/VE.dmg" length="10463478" type="application/octet-stream" sparkle:edSignature="ZBcvRr1wlHKoushfqM7Vj8GdKK3GLarl+5xQynPHHBa/nh0Af1Y4APEhWdRSu8MBiW4OC7boTdp+avamkBzOCA=="/>
         </item>
 
         <item>
