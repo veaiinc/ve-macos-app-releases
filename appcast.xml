@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.38</title>
+            <pubDate>Wed, 28 Jan 2026 07:40:20 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26138</sparkle:version>
+            <sparkle:shortVersionString>26.1.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.38</h2><p>What's new in this release:</p><ul><li>KeyHold</li>
+<li>Update and Dictation sleep Issues</li>
+<li>added enums</li>
+<li>integrated double tap with lowlevelkeytap</li>
+<li>merging jeevans code</li>
+<li>Release app cast</li>
+<li>35 Release</li>
+<li>Removed Help Center from settings View</li>
+<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
+<li>Intercom</li>
+<li>Restart and Intercom issues</li>
+<li>fixed empty text case</li>
+<li>added meeting mode</li>
+<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li>
+<li>About Dialog</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.38/VE.dmg" length="10453246" type="application/octet-stream" sparkle:edSignature="FcdyuySfXGa3UQCymBz+/3IRRo325/od3Oelifp3P/BON9zMkM+xszONBWIu/J+JdjM8ald/uci23vLS3hM1Ag=="/>
+        </item>
+
+        <item>
             <title>26.1.37</title>
             <pubDate>Wed, 28 Jan 2026 07:10:12 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
