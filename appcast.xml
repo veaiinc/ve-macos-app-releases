@@ -3,13 +3,13 @@
     <channel>
         <item>
             <title>26.1.39</title>
-            <pubDate>Wed, 28 Jan 2026 11:34:11 +0000</pubDate>
+            <pubDate>Wed, 28 Jan 2026 13:15:58 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26139</sparkle:version>
             <sparkle:shortVersionString>26.1.39</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.39</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.39/VE.dmg" length="10432020" type="application/octet-stream" sparkle:edSignature="6AjDl2gMlVz07L5EejdtDDZDuRv8oWIIsfJgdO6ENKvk8VeRa0ObkfBPOwqYV7DdJqeIx5Gsa2627XWJ7g9aCw=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.39/VE.dmg" length="10505816" type="application/octet-stream" sparkle:edSignature="LZdKWeuOHodD864AjmH/7qsPbxRKEw906jrmeL0d1okczR89i3+HNuSWa5kEmO5JQ5mAOrIkto9co5VFFg4IAQ=="/>
         </item>
 
         <item>
