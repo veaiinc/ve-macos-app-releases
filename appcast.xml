@@ -3,102 +3,13 @@
     <channel>
         <item>
             <title>26.1.39</title>
-            <pubDate>Wed, 28 Jan 2026 09:56:04 +0000</pubDate>
+            <pubDate>Wed, 28 Jan 2026 11:34:11 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26139</sparkle:version>
             <sparkle:shortVersionString>26.1.39</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.1.39</h2><p>What's new in this release:</p><ul><li>Dictation</li>
-<li>Socket</li>
-<li>KeyHold</li>
-<li>Update and Dictation sleep Issues</li>
-<li>added enums</li>
-<li>integrated double tap with lowlevelkeytap</li>
-<li>merging jeevans code</li>
-<li>Release app cast</li>
-<li>35 Release</li>
-<li>Removed Help Center from settings View</li>
-<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
-<li>Intercom</li>
-<li>Restart and Intercom issues</li>
-<li>fixed empty text case</li>
-<li>added meeting mode</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.39/VE.dmg" length="10488408" type="application/octet-stream" sparkle:edSignature="PXKXJs8UHp5z9ioTgGbKmvp30ChPkbkKBpWPkJBH1lBJQ9zdDqZ2H7XoDSkQlzs68pYzEnvJmkFlO567fJGECg=="/>
-        </item>
-
-        <item>
-            <title>26.1.38</title>
-            <pubDate>Wed, 28 Jan 2026 08:55:37 +0000</pubDate>
-            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26138</sparkle:version>
-            <sparkle:shortVersionString>26.1.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.1.38</h2><p>What's new in this release:</p><ul><li>Socket</li>
-<li>KeyHold</li>
-<li>Update and Dictation sleep Issues</li>
-<li>added enums</li>
-<li>integrated double tap with lowlevelkeytap</li>
-<li>merging jeevans code</li>
-<li>Release app cast</li>
-<li>35 Release</li>
-<li>Removed Help Center from settings View</li>
-<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
-<li>Intercom</li>
-<li>Restart and Intercom issues</li>
-<li>fixed empty text case</li>
-<li>added meeting mode</li>
-<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.38/VE.dmg" length="10471158" type="application/octet-stream" sparkle:edSignature="OtBdtVAJFfEHgnfTzecDiSxpuDuFPW2OZ/HZNZC7eDpOVPP2er5H3MfNkY2hVLL2uIkRPMhXYHp1KQ1vS2B+Cw=="/>
-        </item>
-
-        <item>
-            <title>26.1.37</title>
-            <pubDate>Wed, 28 Jan 2026 07:10:12 +0000</pubDate>
-            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26137</sparkle:version>
-            <sparkle:shortVersionString>26.1.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.1.37</h2><p>What's new in this release:</p><ul><li>KeyHold</li>
-<li>Update and Dictation sleep Issues</li>
-<li>added enums</li>
-<li>integrated double tap with lowlevelkeytap</li>
-<li>merging jeevans code</li>
-<li>Release app cast</li>
-<li>35 Release</li>
-<li>Removed Help Center from settings View</li>
-<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
-<li>Intercom</li>
-<li>Restart and Intercom issues</li>
-<li>fixed empty text case</li>
-<li>added meeting mode</li>
-<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li>
-<li>About Dialog</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.37/VE.dmg" length="10448508" type="application/octet-stream" sparkle:edSignature="EG60Xl5LyuZCQXmmKsU1NxWNO8G5GtI2j0zk/9xtigTh44XoarI8l3GruRYsNBSzZTb2Ssi1gzpcAM0YSpNoCg=="/>
-        </item>
-
-        <item>
-            <title>26.1.36</title>
-            <pubDate>Wed, 28 Jan 2026 06:46:16 +0000</pubDate>
-            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26136</sparkle:version>
-            <sparkle:shortVersionString>26.1.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.1.36</h2><p>What's new in this release:</p><ul><li>Release app cast</li>
-<li>35 Release</li>
-<li>Removed Help Center from settings View</li>
-<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
-<li>Intercom</li>
-<li>Restart and Intercom issues</li>
-<li>fixed empty text case</li>
-<li>added meeting mode</li>
-<li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li>
-<li>About Dialog</li>
-<li>Window Redirection</li>
-<li>Updater</li>
-<li>Updater and Dmg</li>
-<li>fixed height issues for steps</li>
-<li>Refactor InviteMemberModal layout in TeamMembersView. Improved email input and role picker integration, adjusted spacing, and ensured access controls are displayed conditionally based on selected role.</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.36/VE.dmg" length="10442627" type="application/octet-stream" sparkle:edSignature="MxlHME53aLHd/BQijsIxhGDCBfxlGJGfYHXmWpCS0bzgKAPcEytlaHIBcCh/c6j3ws1AK8qhQ+SuM35PGHJICQ=="/>
+            <description><![CDATA[<h2>🚀 VEAI v26.1.39</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.39/VE.dmg" length="10432020" type="application/octet-stream" sparkle:edSignature="6AjDl2gMlVz07L5EejdtDDZDuRv8oWIIsfJgdO6ENKvk8VeRa0ObkfBPOwqYV7DdJqeIx5Gsa2627XWJ7g9aCw=="/>
         </item>
 
         <item>
