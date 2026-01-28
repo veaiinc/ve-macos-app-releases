@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.39</title>
+            <pubDate>Wed, 28 Jan 2026 09:03:56 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26139</sparkle:version>
+            <sparkle:shortVersionString>26.1.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.39</h2><p>What's new in this release:</p><ul><li>Dictation</li>
+<li>Socket</li>
+<li>KeyHold</li>
+<li>Update and Dictation sleep Issues</li>
+<li>added enums</li>
+<li>integrated double tap with lowlevelkeytap</li>
+<li>merging jeevans code</li>
+<li>Release app cast</li>
+<li>35 Release</li>
+<li>Removed Help Center from settings View</li>
+<li>Refactor ConnectedIntegrationModal for improved UI layout and functionality. Removed unnecessary elements, streamlined action buttons, and enhanced the integration status display. Updated ConnectorsView and WorkspaceConnectorsView to adjust frame sizes for better responsiveness.</li>
+<li>Intercom</li>
+<li>Restart and Intercom issues</li>
+<li>fixed empty text case</li>
+<li>added meeting mode</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.39/VE.dmg" length="10471187" type="application/octet-stream" sparkle:edSignature="jx8fElc9kMt/MDt3j44QBqKrp5zlVB3XYhGxOhDsXYqD9eUtC7QcKBUnvKShREa74nJnuoL9CYRFKMPqnzEIAg=="/>
+        </item>
+
+        <item>
             <title>26.1.38</title>
             <pubDate>Wed, 28 Jan 2026 08:55:37 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
