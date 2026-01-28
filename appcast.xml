@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.42</title>
+            <pubDate>Wed, 28 Jan 2026 16:06:26 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26142</sparkle:version>
+            <sparkle:shortVersionString>26.1.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.42</h2><p>What's new in this release:</p><ul><li>Commented out Home Tab</li>
+<li>Script changes</li>
+<li>Block Prediction and dicttaion when Update banner is shown</li>
+<li>Notch updates</li>
+<li>Add Home tab view and related models/services</li>
+<li>Intercom Logging</li>
+<li>resloved bluetooth connected build in mic use</li>
+<li>showing on top of fullscreen</li>
+<li>Intercom change</li>
+<li>added update ui</li>
+<li>Release</li>
+<li>Fixed</li>
+<li>Add window title retrieval to AppHelper and update UnifiedAudioService to include it in payload</li>
+<li>fixed prediictionText bug</li>
+<li>Intercom chnage version</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.42/VE.dmg" length="10599970" type="application/octet-stream" sparkle:edSignature="67Z/nt6AeHaWFBQ3g5pYSV4v2A3S0Q2ZM/37RHSzAZgb8DGrx0TbGqv6dnRfw3XTzty0Tx7QjWhS8d/xCYUMBw=="/>
+        </item>
+
+        <item>
             <title>26.1.41</title>
             <pubDate>Wed, 28 Jan 2026 15:48:42 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
