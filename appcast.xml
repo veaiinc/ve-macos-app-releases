@@ -3,7 +3,7 @@
     <channel>
         <item>
             <title>26.1.38</title>
-            <pubDate>Wed, 28 Jan 2026 08:37:59 +0000</pubDate>
+            <pubDate>Wed, 28 Jan 2026 08:55:37 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26138</sparkle:version>
             <sparkle:shortVersionString>26.1.38</sparkle:shortVersionString>
@@ -23,7 +23,7 @@
 <li>fixed empty text case</li>
 <li>added meeting mode</li>
 <li>Enhance TeamMembersView with toast notifications for invite status and improved email input handling. Added new state for toast messages, refined modal behavior, and updated access control logic based on subscription plan. Adjusted UI elements for better user experience.</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.38/VE.dmg" length="10463478" type="application/octet-stream" sparkle:edSignature="ZBcvRr1wlHKoushfqM7Vj8GdKK3GLarl+5xQynPHHBa/nh0Af1Y4APEhWdRSu8MBiW4OC7boTdp+avamkBzOCA=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.38/VE.dmg" length="10471158" type="application/octet-stream" sparkle:edSignature="OtBdtVAJFfEHgnfTzecDiSxpuDuFPW2OZ/HZNZC7eDpOVPP2er5H3MfNkY2hVLL2uIkRPMhXYHp1KQ1vS2B+Cw=="/>
         </item>
 
         <item>
