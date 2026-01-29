@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.1.43</title>
+            <pubDate>Thu, 29 Jan 2026 15:37:40 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26143</sparkle:version>
+            <sparkle:shortVersionString>26.1.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.43</h2><p>What's new in this release:</p><ul><li>API Integration for connectors</li>
+<li>Revert "check"</li>
+<li>check</li>
+<li>Notch Open and Hide</li>
+<li>changed ui</li>
+<li>added mic ui and functionality</li>
+<li>resloved closed notch in open screen and added key in diction</li>
+<li>sending used text to prediction on enter key down</li>
+<li>Commenedted Out Notion,Teams,CLickup Integration</li>
+<li>Refactored VEAIApp.swift</li>
+<li>Quit Issue Solved</li>
+<li>Update Preferences Toast</li>
+<li>early-access Refresh</li>
+<li>Release 42</li>
+<li>Commented out Home Tab</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.43/VE.dmg" length="10657833" type="application/octet-stream" sparkle:edSignature="oOCZ+6TDwy8RPhjOIo3Sgih7e1amN/oH0icS9fYsI+ztRdtW5R0P+KwwIq29oVw8TNm+vN74x30HeShxzkd+Cg=="/>
+        </item>
+
+        <item>
             <title>26.1.42</title>
             <pubDate>Wed, 28 Jan 2026 16:06:26 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
