@@ -2,11 +2,11 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.1.44</title>
-            <pubDate>Fri, 30 Jan 2026 16:27:28 +0000</pubDate>
+            <title>26.2.1</title>
+            <pubDate>Sun, 01 Feb 2026 16:27:28 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26144</sparkle:version>
-            <sparkle:shortVersionString>26.1.44</sparkle:shortVersionString>
+            <sparkle:shortVersionString>26.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.44</h2><p>What's new in this release:</p><ul><li>chore: remove the Icons</li>
 <li>fix: solve image upload issue</li>
