@@ -2,11 +2,36 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.2.1</title>
+            <title>26.2.2</title>
+            <pubDate>Mon, 02 Feb 2026 05:51:34 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>2622</sparkle:version>
+            <sparkle:shortVersionString>26.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.2</h2><p>What's new in this release:</p><ul><li>Release 26.2.1</li>
+<li>list knowledgebase api update</li>
+<li>Socket</li>
+<li>feat: implemented the knowledge based view</li>
+<li>Curosr Cooldown</li>
+<li>Curosr detetction</li>
+<li>When cursor is there show notch</li>
+<li>Entitleemts</li>
+<li>Window Redirection Solved</li>
+<li>Window Redirection Issue Solved</li>
+<li>fixed bar is auto opening when resart issue</li>
+<li>refactor: reimplement dictation metadata extraction with a faster AXUIElement walk and remove textbox text.</li>
+<li>fixed mic auto-select issue</li>
+<li>Sync with Web Api Intent Mail</li>
+<li>feat: Extract names and sidebar content for dictation from the active window in parallel.</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.2/VE.dmg" length="11920705" type="application/octet-stream" sparkle:edSignature="95Pa4azQrE8V226IrfVs1BT5IHbBzM96ANDQAxeHuF9PPJOLwv/epHs8S6xQYmu3gZuvM5Nls/TWzFLSEdllBg=="/>
+        </item>
+
+        <item>
+            <title>26.1.44</title>
             <pubDate>Sun, 01 Feb 2026 16:27:28 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>2621</sparkle:version>
-            <sparkle:shortVersionString>26.2.1</sparkle:shortVersionString>
+            <sparkle:version>26144</sparkle:version>
+            <sparkle:shortVersionString>26.1.44</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.44</h2><p>What's new in this release:</p><ul><li>chore: remove the Icons</li>
 <li>fix: solve image upload issue</li>
