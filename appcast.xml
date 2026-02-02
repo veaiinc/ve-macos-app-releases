@@ -2,10 +2,35 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.4</title>
+            <pubDate>Mon, 02 Feb 2026 06:16:08 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26204</sparkle:version>
+            <sparkle:shortVersionString>26.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.4</h2><p>What's new in this release:</p><ul><li>Changes made</li>
+<li>Release script</li>
+<li>Release 26.2.1</li>
+<li>list knowledgebase api update</li>
+<li>Socket</li>
+<li>feat: implemented the knowledge based view</li>
+<li>Curosr Cooldown</li>
+<li>Curosr detetction</li>
+<li>When cursor is there show notch</li>
+<li>Entitleemts</li>
+<li>Window Redirection Solved</li>
+<li>Window Redirection Issue Solved</li>
+<li>fixed bar is auto opening when resart issue</li>
+<li>refactor: reimplement dictation metadata extraction with a faster AXUIElement walk and remove textbox text.</li>
+<li>fixed mic auto-select issue</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.4/VE.dmg" length="11920718" type="application/octet-stream" sparkle:edSignature="IyMsMkzDE49o1gZMNXhSA77qKZlWMPR9OpPSGpcoEQaTsmI6bGpcaUBsGDDL+uU9LUNJTEBX2EuUohmTcAePDA=="/>
+        </item>
+
+        <item>
             <title>26.2.3</title>
             <pubDate>Mon, 02 Feb 2026 05:58:14 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26203</sparkle:version>
+            <sparkle:version>260203</sparkle:version>
             <sparkle:shortVersionString>26.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.2.3</h2><p>What's new in this release:</p><ul><li>Release 26.2.1</li>
@@ -30,7 +55,7 @@
             <title>26.2.2</title>
             <pubDate>Mon, 02 Feb 2026 05:51:34 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>2622</sparkle:version>
+            <sparkle:version>260202</sparkle:version>
             <sparkle:shortVersionString>26.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.2.2</h2><p>What's new in this release:</p><ul><li>Release 26.2.1</li>
@@ -55,7 +80,7 @@
             <title>26.1.44</title>
             <pubDate>Fri, 30 Jan 2026 16:27:28 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260144</sparkle:version>
+            <sparkle:version>26144</sparkle:version>
             <sparkle:shortVersionString>26.1.44</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.44</h2><p>What's new in this release:</p><ul><li>chore: remove the Icons</li>
@@ -80,7 +105,7 @@
             <title>26.1.43</title>
             <pubDate>Thu, 29 Jan 2026 15:37:40 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260143</sparkle:version>
+            <sparkle:version>26143</sparkle:version>
             <sparkle:shortVersionString>26.1.43</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.43</h2><p>What's new in this release:</p><ul><li>API Integration for connectors</li>
@@ -105,7 +130,7 @@
             <title>26.1.42</title>
             <pubDate>Wed, 28 Jan 2026 16:06:26 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260142</sparkle:version>
+            <sparkle:version>26142</sparkle:version>
             <sparkle:shortVersionString>26.1.42</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.42</h2><p>What's new in this release:</p><ul><li>Commented out Home Tab</li>
@@ -130,7 +155,7 @@
             <title>26.1.41</title>
             <pubDate>Wed, 28 Jan 2026 15:48:42 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260141</sparkle:version>
+            <sparkle:version>26141</sparkle:version>
             <sparkle:shortVersionString>26.1.41</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.41</h2><p>What's new in this release:</p><ul><li>Script changes</li>
@@ -155,7 +180,7 @@
             <title>26.1.40</title>
             <pubDate>Wed, 28 Jan 2026 14:29:12 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260140</sparkle:version>
+            <sparkle:version>26140</sparkle:version>
             <sparkle:shortVersionString>26.1.40</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.40</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -166,7 +191,7 @@
             <title>26.1.39</title>
             <pubDate>Wed, 28 Jan 2026 15:04:03 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260139</sparkle:version>
+            <sparkle:version>26139</sparkle:version>
             <sparkle:shortVersionString>26.1.39</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.39</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -177,7 +202,7 @@
             <title>26.1.35</title>
             <pubDate>Tue, 27 Jan 2026 14:46:40 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260135</sparkle:version>
+            <sparkle:version>26135</sparkle:version>
             <sparkle:shortVersionString>26.1.35</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.35</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -188,7 +213,7 @@
             <title>26.1.34</title>
             <pubDate>Tue, 27 Jan 2026 09:20:10 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260134</sparkle:version>
+            <sparkle:version>26134</sparkle:version>
             <sparkle:shortVersionString>26.1.34</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.34</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -199,7 +224,7 @@
             <title>26.1.33</title>
             <pubDate>Tue, 27 Jan 2026 09:09:58 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260133</sparkle:version>
+            <sparkle:version>26133</sparkle:version>
             <sparkle:shortVersionString>26.1.33</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.33</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -210,7 +235,7 @@
             <title>26.1.32</title>
             <pubDate>Mon, 26 Jan 2026 14:42:36 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260132</sparkle:version>
+            <sparkle:version>26132</sparkle:version>
             <sparkle:shortVersionString>26.1.32</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.32</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -221,7 +246,7 @@
             <title>26.1.31</title>
             <pubDate>Mon, 26 Jan 2026 14:36:45 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260131</sparkle:version>
+            <sparkle:version>26131</sparkle:version>
             <sparkle:shortVersionString>26.1.31</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VEAI v26.1.31</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -232,7 +257,7 @@
             <title>26.1.30</title>
             <pubDate>Mon, 26 Jan 2026 09:33:00 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260130</sparkle:version>
+            <sparkle:version>26130</sparkle:version>
             <sparkle:shortVersionString>26.1.30</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.30</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
@@ -243,7 +268,7 @@
             <title>26.1.29</title>
             <pubDate>Mon, 26 Jan 2026 06:54:19 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>260129</sparkle:version>
+            <sparkle:version>26129</sparkle:version>
             <sparkle:shortVersionString>26.1.29</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.1.29</h2><p>Production release</p><ul><li>Bug fixes and improvements</li></ul>]]></description>
