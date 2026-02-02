@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.5</title>
+            <pubDate>Mon, 02 Feb 2026 07:27:46 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26205</sparkle:version>
+            <sparkle:shortVersionString>26.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.5</h2><p>What's new in this release:</p><ul><li>Build Version</li>
+<li>Changes made</li>
+<li>Release script</li>
+<li>Release 26.2.1</li>
+<li>list knowledgebase api update</li>
+<li>Socket</li>
+<li>feat: implemented the knowledge based view</li>
+<li>Curosr Cooldown</li>
+<li>Curosr detetction</li>
+<li>When cursor is there show notch</li>
+<li>Entitleemts</li>
+<li>Window Redirection Solved</li>
+<li>Window Redirection Issue Solved</li>
+<li>fixed bar is auto opening when resart issue</li>
+<li>refactor: reimplement dictation metadata extraction with a faster AXUIElement walk and remove textbox text.</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.5/VE.dmg" length="11921695" type="application/octet-stream" sparkle:edSignature="4ufK9vDiqxLHn0YtLc4JKb32xc8WGGSIiRvFOMOOu1Dfv57H9WExt2LGU+kftpW5CNYLnASKgbT/p1j9sUFaAQ=="/>
+        </item>
+
+        <item>
             <title>26.2.4</title>
             <pubDate>Mon, 02 Feb 2026 06:16:08 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
@@ -30,7 +55,7 @@
             <title>26.2.3</title>
             <pubDate>Mon, 02 Feb 2026 05:58:14 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>2623</sparkle:version>
+            <sparkle:version>260203</sparkle:version>
             <sparkle:shortVersionString>26.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.2.3</h2><p>What's new in this release:</p><ul><li>Release 26.2.1</li>
@@ -55,7 +80,7 @@
             <title>26.2.2</title>
             <pubDate>Mon, 02 Feb 2026 05:51:34 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>2622</sparkle:version>
+            <sparkle:version>260202</sparkle:version>
             <sparkle:shortVersionString>26.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>🚀 VE v26.2.2</h2><p>What's new in this release:</p><ul><li>Release 26.2.1</li>
@@ -74,6 +99,31 @@
 <li>Sync with Web Api Intent Mail</li>
 <li>feat: Extract names and sidebar content for dictation from the active window in parallel.</li></ul>]]></description>
             <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.2/VE.dmg" length="11920705" type="application/octet-stream" sparkle:edSignature="95Pa4azQrE8V226IrfVs1BT5IHbBzM96ANDQAxeHuF9PPJOLwv/epHs8S6xQYmu3gZuvM5Nls/TWzFLSEdllBg=="/>
+        </item>
+
+        <item>
+            <title>26.1.44</title>
+            <pubDate>Fri, 30 Jan 2026 16:27:28 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26144</sparkle:version>
+            <sparkle:shortVersionString>26.1.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.1.44</h2><p>What's new in this release:</p><ul><li>chore: remove the Icons</li>
+<li>fix: solve image upload issue</li>
+<li>feat: added intent model section</li>
+<li>Fetch_Onboard will be called on early-access</li>
+<li>changed url</li>
+<li>feat: Update HomeView to conditionally display help section and refactor IntentMailView for improved intent model handling; enhance HomeService to utilize dictation count in usage statistics</li>
+<li>updated the response handling</li>
+<li>handled esc</li>
+<li>prevented the duplicate sessions</li>
+<li>resolved restrict diction while prediction</li>
+<li>handled 404 status</li>
+<li>handled ui response</li>
+<li>feat: Improve HomeView loading state handling and enhance HomeService with date formatting for usage statistics queries</li>
+<li>Toggle Issue Solved</li>
+<li>added white mask</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.1.44/VE.dmg" length="11301840" type="application/octet-stream" sparkle:edSignature="zH9tLQz5CnyxlqH9/OwVATQQwa75gg2egv+HwvWXdIh1fHUQV8oBfic5bX0vihDpHlNTjT/k0BdoQ01aLPdoAw=="/>
         </item>
 
         <item>
