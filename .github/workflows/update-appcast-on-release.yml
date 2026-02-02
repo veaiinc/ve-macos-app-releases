@@ -1,0 +1,112 @@
+# GitHub Actions workflow for ve-macos-app-releases repo
+# Copy this file to: ve-macos-app-releases/.github/workflows/update-appcast-on-release.yml
+#
+# When you mark a pre-release as "latest" on GitHub (uncheck "pre-release"),
+# this workflow automatically updates appcast.xml so users receive the update.
+#
+# Requires: Pre-releases must be created with create-pre-release.sh (which uploads
+# ed_signature.txt). No secrets needed.
+
+name: Update appcast when release marked as latest
+
+on:
+  release:
+    types: [edited, published]
+
+jobs:
+  update-appcast:
+    if: github.event.release.prerelease == false
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Parse version from tag
+        id: parse
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          VERSION="${TAG#v}"
+          SPARKLE_VER=$(echo "$VERSION" | awk -F. '{printf "%d", $1*1000 + $2*100 + $3}')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "sparkle_version=$SPARKLE_VER" >> $GITHUB_OUTPUT
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Fetch release assets
+        id: assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ASSETS=$(curl -s -H "Authorization: token $GH_TOKEN" "${{ github.event.release.assets_url }}")
+          DMG_URL=$(echo "$ASSETS" | jq -r '.[] | select(.name == "VE.dmg") | .url')
+          SIG_URL=$(echo "$ASSETS" | jq -r '.[] | select(.name == "ed_signature.txt") | .url')
+          DMG_SIZE=$(echo "$ASSETS" | jq -r '.[] | select(.name == "VE.dmg") | .size')
+          if [ -z "$DMG_URL" ] || [ "$DMG_URL" = "null" ]; then
+            echo "::error::VE.dmg not found in release assets"
+            exit 1
+          fi
+          if [ -z "$SIG_URL" ] || [ "$SIG_URL" = "null" ]; then
+            echo "::error::ed_signature.txt not found. Use create-pre-release.sh to create pre-releases."
+            exit 1
+          fi
+          curl -sL -H "Accept: application/octet-stream" -H "Authorization: token $GH_TOKEN" "$DMG_URL" -o VE.dmg
+          curl -sL -H "Accept: application/octet-stream" -H "Authorization: token $GH_TOKEN" "$SIG_URL" -o ed_signature.txt
+          ED_SIG=$(cat ed_signature.txt | tr -d '\n')
+          echo "ed_signature=$ED_SIG" >> $GITHUB_ENV
+          echo "dmg_size=$DMG_SIZE" >> $GITHUB_ENV
+
+      - name: Update appcast.xml
+        env:
+          VERSION: ${{ steps.parse.outputs.version }}
+          SPARKLE_VER: ${{ steps.parse.outputs.sparkle_version }}
+          TAG: ${{ steps.parse.outputs.tag }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+        run: |
+          python3 << 'PYSCRIPT'
+          import os
+          import re
+          from datetime import datetime
+
+          version = os.environ["VERSION"]
+          sparkle_ver = os.environ["SPARKLE_VER"]
+          tag = os.environ["TAG"]
+          dmg_size = os.environ.get("dmg_size", "0")
+          ed_sig = os.environ.get("ed_signature", "")
+          body = os.environ.get("RELEASE_BODY", "")
+          if not body:
+              body = f"<h2>🚀 VE v{version}</h2><p>Update available.</p>"
+          body = body.replace("]]>", "]]]]><![CDATA[>")
+
+          pub_date = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
+          new_entry = f'''        <item>
+            <title>{version}</title>
+            <pubDate>{pub_date}</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>{sparkle_ver}</sparkle:version>
+            <sparkle:shortVersionString>{version}</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[{body}]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/{tag}/VE.dmg" length="{dmg_size}" type="application/octet-stream" sparkle:edSignature="{ed_sig}"/>
+          </item>
+'''
+          with open("appcast.xml", "r") as f:
+              content = f.read()
+          content = re.sub(r'<item>\s*.*?<title>\s*' + re.escape(version) + r'\s*</title>.*?</item>\s*', '', content, flags=re.DOTALL)
+          content = re.sub(r'(<channel>\s*\n)', r'\1' + new_entry, content, count=1)
+          with open("appcast.xml", "w") as f:
+              f.write(content)
+          PYSCRIPT
+
+      - name: Commit and push appcast
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add appcast.xml
+          if git diff --staged --quiet; then
+            echo "No changes to appcast"
+          else
+            git commit -m "Update appcast for ${{ steps.parse.outputs.version }} (marked as latest)"
+            git push
+          fi
