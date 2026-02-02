@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.6</title>
+            <pubDate>Mon, 02 Feb 2026 07:50:42 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26206</sparkle:version>
+            <sparkle:shortVersionString>26.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.6</h2><p>What's new in this release:</p><ul><li>Script</li>
+<li>Build Version</li>
+<li>Changes made</li>
+<li>Release script</li>
+<li>Release 26.2.1</li>
+<li>list knowledgebase api update</li>
+<li>Socket</li>
+<li>feat: implemented the knowledge based view</li>
+<li>Curosr Cooldown</li>
+<li>Curosr detetction</li>
+<li>When cursor is there show notch</li>
+<li>Entitleemts</li>
+<li>Window Redirection Solved</li>
+<li>Window Redirection Issue Solved</li>
+<li>fixed bar is auto opening when resart issue</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.6/VE.dmg" length="11920717" type="application/octet-stream" sparkle:edSignature="6nlrvq5bE+3MTSvvqpO7p65fQx1Exd5SX9aqswM9n2KtBEugatFHWMkS2TdnaKsdE9KXaqpUhLt5drXl5EFHCw=="/>
+        </item>
+
+        <item>
             <title>26.2.5</title>
             <pubDate>Mon, 02 Feb 2026 07:27:46 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
