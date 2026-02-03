@@ -66,41 +66,35 @@ jobs:
           TAG: ${{ steps.parse.outputs.tag }}
           RELEASE_BODY: ${{ github.event.release.body }}
         run: |
-          python3 << 'PYSCRIPT'
-          import os
-          import re
+          python3 -c "
+          import os, re
           from datetime import datetime
-
-          version = os.environ["VERSION"]
-          sparkle_ver = os.environ["SPARKLE_VER"]
-          tag = os.environ["TAG"]
-          dmg_size = os.environ.get("dmg_size", "0")
-          ed_sig = os.environ.get("ed_signature", "")
-          body = os.environ.get("RELEASE_BODY") or ""
-          if not body:
-              body = f"<h2>🚀 VE v{version}</h2><p>Update available.</p>"
-          body = body.replace("]]>", "]]]]><![CDATA[>")
-          cdata_end = "]]" + ">"
-
-          pub_date = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-          new_entry = f'''        <item>
-            <title>{version}</title>
-            <pubDate>{pub_date}</pubDate>
+          v = os.environ['VERSION']
+          sv = os.environ['SPARKLE_VER']
+          t = os.environ['TAG']
+          ds = os.environ.get('dmg_size', '0')
+          es = os.environ.get('ed_signature', '')
+          b = os.environ.get('RELEASE_BODY') or ''
+          if not b: b = '<h2>VE v' + v + '</h2><p>Update available.</p>'
+          b = b.replace(']]' + '>', ']]]]><![CDATA[' + '>')
+          ce = ']]' + '>'
+          pd = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+          ne = '''        <item>
+            <title>''' + v + '''</title>
+            <pubDate>''' + pd + '''</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>{sparkle_ver}</sparkle:version>
-            <sparkle:shortVersionString>{version}</sparkle:shortVersionString>
+            <sparkle:version>''' + sv + '''</sparkle:version>
+            <sparkle:shortVersionString>''' + v + '''</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[{body}{cdata_end}</description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/{tag}/VE.dmg" length="{dmg_size}" type="application/octet-stream" sparkle:edSignature="{ed_sig}"/>
+            <description><![CDATA[''' + b + ce + '''</description>
+            <enclosure url=\"https://github.com/veaiinc/ve-macos-app-releases/releases/download/''' + t + '''/VE.dmg\" length=\"''' + ds + '''\" type=\"application/octet-stream\" sparkle:edSignature=\"''' + es + '''\"/>
           </item>
 '''
-          with open("appcast.xml", "r") as f:
-              content = f.read()
-          content = re.sub(r'<item>\s*.*?<title>\s*' + re.escape(version) + r'\s*</title>.*?</item>\s*', '', content, flags=re.DOTALL)
-          content = re.sub(r'(<channel>\s*\n)', r'\1' + new_entry, content, count=1)
-          with open("appcast.xml", "w") as f:
-              f.write(content)
-          PYSCRIPT
+          with open('appcast.xml') as f: c = f.read()
+          c = re.sub(r'<item>\s*.*?<title>\s*' + re.escape(v) + r'\s*</title>.*?</item>\s*', '', c, flags=re.DOTALL)
+          c = re.sub(r'(<channel>\s*\n)', r'\1' + ne, c, count=1)
+          with open('appcast.xml', 'w') as f: f.write(c)
+          "
 
       - name: Commit and push appcast
         run: |
