@@ -80,6 +80,7 @@ jobs:
           if not body:
               body = f"<h2>🚀 VE v{version}</h2><p>Update available.</p>"
           body = body.replace("]]>", "]]]]><![CDATA[>")
+          cdata_end = "]]" + ">"
 
           pub_date = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
           new_entry = f'''        <item>
@@ -89,7 +90,7 @@ jobs:
             <sparkle:version>{sparkle_ver}</sparkle:version>
             <sparkle:shortVersionString>{version}</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[{body}]]></description>
+            <description><![CDATA[{body}{cdata_end}</description>
             <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/{tag}/VE.dmg" length="{dmg_size}" type="application/octet-stream" sparkle:edSignature="{ed_sig}"/>
           </item>
 '''
