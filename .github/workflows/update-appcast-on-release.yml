@@ -65,36 +65,7 @@ jobs:
           SPARKLE_VER: ${{ steps.parse.outputs.sparkle_version }}
           TAG: ${{ steps.parse.outputs.tag }}
           RELEASE_BODY: ${{ github.event.release.body }}
-        run: |
-          python3 -c "
-          import os, re
-          from datetime import datetime
-          v = os.environ['VERSION']
-          sv = os.environ['SPARKLE_VER']
-          t = os.environ['TAG']
-          ds = os.environ.get('dmg_size', '0')
-          es = os.environ.get('ed_signature', '')
-          b = os.environ.get('RELEASE_BODY') or ''
-          if not b: b = '<h2>VE v' + v + '</h2><p>Update available.</p>'
-          b = b.replace(']]' + '>', ']]]]><![CDATA[' + '>')
-          ce = ']]' + '>'
-          pd = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
-          ne = '''        <item>
-            <title>''' + v + '''</title>
-            <pubDate>''' + pd + '''</pubDate>
-            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>''' + sv + '''</sparkle:version>
-            <sparkle:shortVersionString>''' + v + '''</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[''' + b + ce + '''</description>
-            <enclosure url=\"https://github.com/veaiinc/ve-macos-app-releases/releases/download/''' + t + '''/VE.dmg\" length=\"''' + ds + '''\" type=\"application/octet-stream\" sparkle:edSignature=\"''' + es + '''\"/>
-          </item>
-'''
-          with open('appcast.xml') as f: c = f.read()
-          c = re.sub(r'<item>\s*.*?<title>\s*' + re.escape(v) + r'\s*</title>.*?</item>\s*', '', c, flags=re.DOTALL)
-          c = re.sub(r'(<channel>\s*\n)', r'\1' + ne, c, count=1)
-          with open('appcast.xml', 'w') as f: f.write(c)
-          "
+        run: python3 .github/scripts/update-appcast.py
 
       - name: Commit and push appcast
         run: |
