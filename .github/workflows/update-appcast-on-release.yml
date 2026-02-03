@@ -17,6 +17,8 @@ jobs:
   update-appcast:
     if: github.event.release.prerelease == false
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -39,7 +41,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ASSETS=$(curl -s -H "Authorization: token $GH_TOKEN" "${{ github.event.release.assets_url }}")
+          ASSETS=$(curl -s -H "Authorization: Bearer $GH_TOKEN" -H "X-GitHub-Api-Version: 2022-11-28" "${{ github.event.release.assets_url }}")
           DMG_URL=$(echo "$ASSETS" | jq -r '.[] | select(.name == "VE.dmg") | .url')
           SIG_URL=$(echo "$ASSETS" | jq -r '.[] | select(.name == "ed_signature.txt") | .url')
           DMG_SIZE=$(echo "$ASSETS" | jq -r '.[] | select(.name == "VE.dmg") | .size')
@@ -51,8 +53,8 @@ jobs:
             echo "::error::ed_signature.txt not found. Use create-pre-release.sh to create pre-releases."
             exit 1
           fi
-          curl -sL -H "Accept: application/octet-stream" -H "Authorization: token $GH_TOKEN" "$DMG_URL" -o VE.dmg
-          curl -sL -H "Accept: application/octet-stream" -H "Authorization: token $GH_TOKEN" "$SIG_URL" -o ed_signature.txt
+          curl -sL -H "Accept: application/octet-stream" -H "Authorization: Bearer $GH_TOKEN" "$DMG_URL" -o VE.dmg
+          curl -sL -H "Accept: application/octet-stream" -H "Authorization: Bearer $GH_TOKEN" "$SIG_URL" -o ed_signature.txt
           ED_SIG=$(cat ed_signature.txt | tr -d '\n')
           echo "ed_signature=$ED_SIG" >> $GITHUB_ENV
           echo "dmg_size=$DMG_SIZE" >> $GITHUB_ENV
@@ -74,7 +76,7 @@ jobs:
           tag = os.environ["TAG"]
           dmg_size = os.environ.get("dmg_size", "0")
           ed_sig = os.environ.get("ed_signature", "")
-          body = os.environ.get("RELEASE_BODY", "")
+          body = os.environ.get("RELEASE_BODY") or ""
           if not body:
               body = f"<h2>🚀 VE v{version}</h2><p>Update available.</p>"
           body = body.replace("]]>", "]]]]><![CDATA[>")
@@ -108,5 +110,5 @@ jobs:
             echo "No changes to appcast"
           else
             git commit -m "Update appcast for ${{ steps.parse.outputs.version }} (marked as latest)"
-            git push
+            git push origin main
           fi
