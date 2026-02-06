@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.7</title>
+            <pubDate>Fri, 06 Feb 2026 15:58:24 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26207</sparkle:version>
+            <sparkle:shortVersionString>26.2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.7</h2><p>What's new in this release:</p><ul><li>Release</li>
+<li>removed the window shadow</li>
+<li>fixed loader</li>
+<li>Update background colors in WorkspaceConnectorsView for improved visual consistency and hierarchy.</li>
+<li>Refactor UI components in Settings views to improve styling and consistency. Removed unused SVG assets and adjusted background colors for better visual hierarchy. Added keyboard shortcut for settings access.</li>
+<li>feat: Display text input caret on screenshots, improving accuracy for Electron/Chromium apps.</li>
+<li>Own App and Commented out Notch Tab</li>
+<li>Remove background styling and overlay from sidebar button in SettingsView</li>
+<li>Changes</li>
+<li>refactor: ensure dictation targets external applications and broaden app activity extraction scope by removing validation and sidebar isolation.</li>
+<li>HIde Logic</li>
+<li>Cursor Detection</li>
+<li>Cursor Active</li>
+<li>ui completed</li>
+<li>Refactor InstructionRowView: Simplify button layout and adjust hover opacity</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.7/VE.dmg" length="12899101" type="application/octet-stream" sparkle:edSignature="hscT9hqcXUDz5JhWxDKFaaGcpT0O2BrUYvP/KO0n+3VAvll7/EeuYyWJ7RAbz4ZkykuYOM1mYiOQ/NchEakhAw=="/>
+        </item>
+
+        <item>
             <title>26.2.6</title>
             <pubDate>Mon, 02 Feb 2026 07:50:42 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
