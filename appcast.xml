@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.8</title>
+            <pubDate>Sat, 07 Feb 2026 16:23:13 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26208</sparkle:version>
+            <sparkle:shortVersionString>26.2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.8</h2><p>What's new in this release:</p><ul><li>Implement loading skeleton view in InstructionsView to enhance user experience during data loading. Display a full skeleton when instructions are being loaded, ensuring consistent visual feedback across the application.</li>
+<li>Enhance loading views across DictionaryView, LogsView, and VoiceView with detailed skeleton UI elements for improved user experience during data loading. Adjust layout and styling for consistency and better visual feedback.</li>
+<li>Refactor Dictionary and Voice services to streamline word management by consolidating parameters for add and update operations. Update UI components to reflect changes in data structure, enhancing user experience and consistency across the application.</li>
+<li>Curosr Detetcion</li>
+<li>New Changes</li>
+<li>checking</li>
+<li>Add new color set for SurfaceInverse and update font styles across various components for improved consistency and readability.</li>
+<li>Hold Feature</li>
+<li>Enhance loading view in IntentMailView with detailed skeleton UI elements for improved user experience during data loading.</li>
+<li>Update font styles and padding in IntentMailView for improved consistency and readability.</li>
+<li>Remove unused GeneralSans font files and adjust AppLogoView for improved icon scaling and layout consistency.</li>
+<li>Refactor font usage in ToastView and HomeView components to utilize predefined styles from ThemeManager. Removed font registration logic from ThemeManager and updated skeleton view dimensions for better layout consistency.</li>
+<li>Logs Appearnce</li>
+<li>Voice Logs</li>
+<li>Voice Logs</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.8/VE.dmg" length="12736114" type="application/octet-stream" sparkle:edSignature="iMYWmwM6rzUIkDsvCnFY5t+6l+r2Wl6rQqf4eC7ysH6HQZWe+jSNoEcPo2TtrgX75lg+9Zza8xqJkwasxyEFAA=="/>
+        </item>
+
+        <item>
             <title>26.2.7</title>
             <pubDate>Fri, 06 Feb 2026 15:58:24 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
