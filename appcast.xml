@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.12</title>
+            <pubDate>Mon, 09 Feb 2026 12:01:28 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26212</sparkle:version>
+            <sparkle:shortVersionString>26.2.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.12</h2><p>What's new in this release:</p><ul><li>added animation to border</li>
+<li>added loader ans changed rendering animations</li>
+<li>added loader</li>
+<li>fix: prevent initial audio engine reconfiguration when observing microphone preference changes</li>
+<li>feat: Enhance caret poking to preserve modifier flags and mark synthetic events, which LowLevelKeyTap now ignores, while also refactoring modifier key detection and ensuring audio session starts before recording.</li>
+<li>changed colors for gradient</li>
+<li>Added Log View</li>
+<li>added markdown ui in answer widget</li>
+<li>Removed Fonts and Resources Folder</li>
+<li>Appcast</li>
+<li>26.2.10</li>
+<li>Font</li>
+<li>changes</li>
+<li>changes</li>
+<li>26.2.9</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.12/VE.dmg" length="13594051" type="application/octet-stream" sparkle:edSignature="FZbrtv+Pw/voVtydUQHsHq+hHckWDGv/4AmmNMZq2wcTgSk/thHV0gBWrxkS/yhH/Sm0sEYHMaUY9wcjX1htAQ=="/>
+        </item>
+
+        <item>
             <title>26.2.10</title>
             <pubDate>Sat, 07 Feb 2026 17:04:31 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
