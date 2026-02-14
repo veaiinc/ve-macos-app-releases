@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.14</title>
+            <pubDate>Sat, 14 Feb 2026 06:25:52 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26214</sparkle:version>
+            <sparkle:shortVersionString>26.2.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.14</h2><p>What's new in this release:</p><ul><li>Release</li>
+<li>fix it</li>
+<li>Refactor PrivacyConnectorsView to ensure the onboarding window is only displayed during an active onboarding session, improving user experience by preventing unnecessary window pop-ups.</li>
+<li>Refactor PrivacyConnectorsView to streamline onboarding process by removing the "Skip" button and updating the "Continue" button text to "Finish" when an integration is connected, enhancing user clarity and experience.</li>
+<li>Refactor ControlKeyEducationView and DictationKeyView to toggle recording state with updated button text and disable button when no shortcut is available. Enhance user experience by providing clear actions based on recording status.</li>
+<li>ui done dynamic transcription height</li>
+<li>Enhance TryPredictionView and TryVoiceIntentView with reply text area, auto-focus functionality, and improved layout. Adjust padding and color consistency for better visual clarity.</li>
+<li>Update onboarding views for improved clarity and consistency in text, adjust padding, and enhance theme color usage across multiple components.</li>
+<li>Remove unused intentMail image assets and associated JSON configuration</li>
+<li>Refactor onboarding views to use cached assets and dynamic key name in text</li>
+<li>Onboard Finish Functinality</li>
+<li>Update OnboardingProgressIndicator to use secondary text color for completed steps</li>
+<li>Fixed The Outllok issue</li>
+<li>Revert "Onoard check"</li>
+<li>Onboard</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.14/VE.dmg" length="14083291" type="application/octet-stream" sparkle:edSignature="CKNhfXVBEIP/uTGRJkKJ2y3S3FqKcNoUsbQxthNp1oO9JgrCAGaBTsHlyvUwNlMy1YqdmlOJ0TJpviI+P2csBw=="/>
+        </item>
+
+        <item>
             <title>26.2.12</title>
             <pubDate>Mon, 09 Feb 2026 12:01:28 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
