@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.15</title>
+            <pubDate>Sat, 14 Feb 2026 12:32:55 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26215</sparkle:version>
+            <sparkle:shortVersionString>26.2.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.15</h2><p>What's new in this release:</p><ul><li>Logs 1</li>
+<li>Prevented Sleep and Screen</li>
+<li>Onboard View</li>
+<li>check</li>
+<li>Curosr Position message removed</li>
+<li>Onboarding view Theme color</li>
+<li>ui changes and edge cases fix in meetings</li>
+<li>Release</li>
+<li>Release</li>
+<li>fix it</li>
+<li>Refactor PrivacyConnectorsView to ensure the onboarding window is only displayed during an active onboarding session, improving user experience by preventing unnecessary window pop-ups.</li>
+<li>Refactor PrivacyConnectorsView to streamline onboarding process by removing the "Skip" button and updating the "Continue" button text to "Finish" when an integration is connected, enhancing user clarity and experience.</li>
+<li>docs: add .env.example and CLAUDE.md for AI readiness</li>
+<li>Refactor ControlKeyEducationView and DictationKeyView to toggle recording state with updated button text and disable button when no shortcut is available. Enhance user experience by providing clear actions based on recording status.</li>
+<li>ui done dynamic transcription height</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.15/VE.dmg" length="14059588" type="application/octet-stream" sparkle:edSignature="3sYIPRn/7iJTb8UUS3CBOTeFFN6fWl21siuia4ddFmUXV5bEzVo0Gr3Rqj1eUPgaVLX7GJR6rawJ6VbYBFALDA=="/>
+        </item>
+
+        <item>
             <title>26.2.14</title>
             <pubDate>Sat, 14 Feb 2026 06:25:52 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
