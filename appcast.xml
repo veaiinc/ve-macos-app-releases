@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.2.20</title>
+            <pubDate>Fri, 20 Feb 2026 15:04:21 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26220</sparkle:version>
+            <sparkle:shortVersionString>26.2.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.2.20</h2><p>What's new in this release:</p><ul><li>button cliclable</li>
+<li>chnages blue bg</li>
+<li>sync with master</li>
+<li>meeting ui and feature pushed</li>
+<li>Added Icon</li>
+<li>Added heading and Decpriton</li>
+<li>Added shortcuts in menu</li>
+<li>Removed Intercom icon</li>
+<li>Bcak to home added</li>
+<li>Middled Toogle and changed home to work</li>
+<li>Logs cache</li>
+<li>refactor: enhance shortcut card UI with updated titles and subtitles for better clarity</li>
+<li>added loaders for the recent chats</li>
+<li>updated the chat loader</li>
+<li>added the sidebar bottom items such as user infos and settings toggle, changed the chat arrow opacity</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.20/VE.dmg" length="16874831" type="application/octet-stream" sparkle:edSignature="eRLoBXYyzixGFbxlh2mKuXdO4c4KmFU61XimD8UgC8Aqq/g+JPRzqGpQbHqVgoXjUaPGdpkr+WiEBNOAbQl2Bg=="/>
+        </item>
+
+        <item>
             <title>26.2.16</title>
             <pubDate>Sat, 14 Feb 2026 13:40:20 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
