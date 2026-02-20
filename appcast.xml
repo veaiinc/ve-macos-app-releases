@@ -2,13 +2,15 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.2.21</title>
-            <pubDate>Fri, 20 Feb 2026 16:06:52 +0000</pubDate>
+            <title>26.2.22</title>
+            <pubDate>Fri, 20 Feb 2026 16:47:36 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26221</sparkle:version>
-            <sparkle:shortVersionString>26.2.21</sparkle:shortVersionString>
+            <sparkle:version>26222</sparkle:version>
+            <sparkle:shortVersionString>26.2.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.2.21</h2><p>What's new in this release:</p><ul><li>reconnect logic</li>
+            <description><![CDATA[<h2>🚀 VE v26.2.22</h2><p>What's new in this release:</p><ul><li>Reapply "Merge branch 'met/fix'"</li>
+<li>Revert "Merge branch 'met/fix'"</li>
+<li>reconnect logic</li>
 <li>button cliclable</li>
 <li>chnages blue bg</li>
 <li>sync with master</li>
@@ -20,10 +22,8 @@
 <li>Bcak to home added</li>
 <li>Middled Toogle and changed home to work</li>
 <li>Logs cache</li>
-<li>refactor: enhance shortcut card UI with updated titles and subtitles for better clarity</li>
-<li>added loaders for the recent chats</li>
-<li>updated the chat loader</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.21/VE.dmg" length="16877021" type="application/octet-stream" sparkle:edSignature="25tpUGfyzwtCuzu8M6O0KN4hsoyiXKdY5EDuL4cPvtZ4GWvWLmJehcRHILHppDDCoTyCLy8NK8d7Dtt2XmQaDg=="/>
+<li>refactor: enhance shortcut card UI with updated titles and subtitles for better clarity</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.22/VE.dmg" length="16877191" type="application/octet-stream" sparkle:edSignature="0CX+jcTBkthOP2pP8ZhcMQFWf7nRXJgAs32nGLNKu5hc0zj2Z+hcXpS+b/9UKxVcsm8TFo6NPoPMhe2//MXSDQ=="/>
         </item>
 
         <item>
