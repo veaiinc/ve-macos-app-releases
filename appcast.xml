@@ -3,7 +3,7 @@
     <channel>
         <item>
             <title>26.2.20</title>
-            <pubDate>Fri, 20 Feb 2026 15:04:21 +0000</pubDate>
+            <pubDate>Fri, 20 Feb 2026 15:06:30 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26220</sparkle:version>
             <sparkle:shortVersionString>26.2.20</sparkle:shortVersionString>
@@ -23,7 +23,7 @@
 <li>added loaders for the recent chats</li>
 <li>updated the chat loader</li>
 <li>added the sidebar bottom items such as user infos and settings toggle, changed the chat arrow opacity</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.20/VE.dmg" length="16874831" type="application/octet-stream" sparkle:edSignature="eRLoBXYyzixGFbxlh2mKuXdO4c4KmFU61XimD8UgC8Aqq/g+JPRzqGpQbHqVgoXjUaPGdpkr+WiEBNOAbQl2Bg=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.20/VE.dmg" length="16874801" type="application/octet-stream" sparkle:edSignature="55AuEIUVhQ7VzAd8c6oGClj0KCO9XwRocIHfB0qB1HLmsN894Wy3msXSsn/4W03++1rDrscddoUwq7Z3rjRCCQ=="/>
         </item>
 
         <item>
