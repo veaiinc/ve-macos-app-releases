@@ -2,28 +2,28 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.2.22</title>
-            <pubDate>Fri, 20 Feb 2026 16:47:36 +0000</pubDate>
+            <title>26.2.23</title>
+            <pubDate>Tue, 24 Feb 2026 15:42:13 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26222</sparkle:version>
-            <sparkle:shortVersionString>26.2.22</sparkle:shortVersionString>
+            <sparkle:version>26223</sparkle:version>
+            <sparkle:shortVersionString>26.2.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.2.22</h2><p>What's new in this release:</p><ul><li>Reapply "Merge branch 'met/fix'"</li>
-<li>Revert "Merge branch 'met/fix'"</li>
-<li>reconnect logic</li>
-<li>button cliclable</li>
-<li>chnages blue bg</li>
-<li>sync with master</li>
-<li>meeting ui and feature pushed</li>
-<li>Added Icon</li>
-<li>Added heading and Decpriton</li>
-<li>Added shortcuts in menu</li>
-<li>Removed Intercom icon</li>
-<li>Bcak to home added</li>
-<li>Middled Toogle and changed home to work</li>
-<li>Logs cache</li>
-<li>refactor: enhance shortcut card UI with updated titles and subtitles for better clarity</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.22/VE.dmg" length="16877191" type="application/octet-stream" sparkle:edSignature="0CX+jcTBkthOP2pP8ZhcMQFWf7nRXJgAs32nGLNKu5hc0zj2Z+hcXpS+b/9UKxVcsm8TFo6NPoPMhe2//MXSDQ=="/>
+            <description><![CDATA[<h2>🚀 VE v26.2.23</h2><p>What's new in this release:</p><ul><li>23 release</li>
+<li>Auto update padding</li>
+<li>Auto Update</li>
+<li>feat: implement auto-growing text area for chat input with multi-line support</li>
+<li>Enhance MemoryGalleryView to validate online status before sharing</li>
+<li>Add notify feature to MemoryGalleryView and FoldersService</li>
+<li>Refactor FoldersService for improved download handling and directory management</li>
+<li>Enhance MemoryGalleryView and FoldersService for improved download preferences management</li>
+<li>Enhance MemoryGalleryUploadView and MemoryGalleryView for improved tag management</li>
+<li>fix: prevent text selection issue by deselecting text after key press in Dictation and Prediction services</li>
+<li>Update FoldersService to pad downloaded data to expected size</li>
+<li>Enhance MemoryGalleryView and FoldersService for improved tag handling and slug validation</li>
+<li>Implement gallery and album slug availability checks in MemoryGalleryView and MemoryView</li>
+<li>Update MemoryGalleryView and FoldersService for enhanced gallery functionality</li>
+<li>Refactor MemoryGalleryView and FoldersService for improved layout and coordinate handling</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.2.23/VE.dmg" length="19729619" type="application/octet-stream" sparkle:edSignature="kUwYbzBJIsef/sxantnekA9h0Vht3ppc/1wZCmTANiwc9AFeod8Zv9zkzVJLGAv+EgSUxN+dQGWPkf2HozEfCA=="/>
         </item>
 
         <item>
