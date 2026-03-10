@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.3.11</title>
+            <pubDate>Tue, 10 Mar 2026 16:24:19 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26311</sparkle:version>
+            <sparkle:shortVersionString>26.3.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.3.11</h2><p>What's new in this release:</p><ul><li>Websocket</li>
+<li>26.3.10</li>
+<li>Fix meeting audio not starting with built-in mic override</li>
+<li>Defer audio engine configuration to avoid Bluetooth A2DP→HFP switch</li>
+<li>Add visual widget when built-in microphone override is active</li>
+<li>fix: apply Bluetooth A2DP override to DictationService and InstructionService</li>
+<li>fix: apply Bluetooth A2DP override to MeetingService</li>
+<li>fix: preserve Bluetooth A2DP audio quality during voice capture</li>
+<li>feat: implement Sentry error monitoring in macOS desktop app</li>
+<li>Prediction Timer</li>
+<li>summary fall bakc and google meet detection logic</li>
+<li>Combine</li>
+<li>Adjust font sizes in MeetingHoverWidget for improved readability</li>
+<li>Add theme manager to various views and apply preferred color scheme</li>
+<li>fix generate time issue</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.3.11/VE.dmg" length="21966035" type="application/octet-stream" sparkle:edSignature="KVqyFiMhruvj7A/QgDrizPmFT9JMZA8RFQtXeSU+EY9wOA6aPvmg/nWNiS4xSYQqE9itLlw2JeughJrkRYfXBg=="/>
+        </item>
+
+        <item>
             <title>26.3.10</title>
             <pubDate>Tue, 10 Mar 2026 16:01:04 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
