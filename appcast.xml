@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.3.12</title>
+            <pubDate>Wed, 11 Mar 2026 13:23:57 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26312</sparkle:version>
+            <sparkle:shortVersionString>26.3.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.3.12</h2><p>What's new in this release:</p><ul><li>auto scroll meeetings</li>
+<li>Revert "Merge branch 'bugfix/folder-animation' of https://bitbucket.org/veaiinc/ve-macos-desktop-app/src/master"</li>
+<li>Enhance MemoryGalleryView and FoldersService to support custom album sorting. Preserve API order for gallery albums and implement optimistic UI updates during drag-and-drop operations. Update customSortIndex handling in GalleryAlbumSummary for better state management.</li>
+<li>Add content shapes to various buttons and views in MemoryGalleryView and MemoryView for improved touch target areas. Refactor album cover logic to ensure proper display based on gallery cover conditions.</li>
+<li>Thinking Step</li>
+<li>chat session</li>
+<li>New Version Changes chat and auto update and error slack</li>
+<li>fixed issue</li>
+<li>Refactor MemoryGalleryView and FoldersService to improve thumbnail loading and error handling. Added logging for gallery cover image loading and updated cover image retrieval logic in FoldersService. Ensured SwiftUI re-evaluates thumbnail properties upon loading completion.</li>
+<li>26.3.11</li>
+<li>Websocket</li>
+<li>26.3.10</li>
+<li>Fix meeting audio not starting with built-in mic override</li>
+<li>Defer audio engine configuration to avoid Bluetooth A2DP→HFP switch</li>
+<li>Add visual widget when built-in microphone override is active</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.3.12/VE.dmg" length="22012459" type="application/octet-stream" sparkle:edSignature="DlLYuYbNk7zJqGKI2Y25nh7Erss0cfip/qZ3nf0XbA5PzFpv58p8XTC4Z1gs3NLq246HLMFkOHO+Qh9obbglCA=="/>
+        </item>
+
+        <item>
             <title>26.3.11</title>
             <pubDate>Tue, 10 Mar 2026 16:24:19 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
