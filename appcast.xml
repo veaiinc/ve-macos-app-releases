@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.3.19</title>
+            <pubDate>Wed, 18 Mar 2026 23:03:20 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26319</sparkle:version>
+            <sparkle:shortVersionString>26.3.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.3.19</h2><p>What's new in this release:</p><ul><li>fixed location</li>
+<li>action blocks</li>
+<li>fix: update WebSocket URLs to use production endpoint</li>
+<li>feat: enhance localization strings and improve WebSocket message handling</li>
+<li>fix: update WebSocket URLs to use development endpoint</li>
+<li>feat: forward userReply and signalContext to orchestrator via WebSocket</li>
+<li>fix: add AppKit import for NSApp</li>
+<li>fix: re-activate app after computer_use to keep WebSocket alive</li>
+<li>fix: ignore heartbeat messages from backend</li>
+<li>fix: correct comment to reflect PNG encoding</li>
+<li>perf: make WebSocket idle timeout configurable, set 30 min for agent sockets</li>
+<li>fix: Update WebSocket URLs to use new production endpoint for super agent API</li>
+<li>perf: fix computer use screenshot encoding and sleep prevention</li>
+<li>feat: Enhance PasteHelper functionality to support multiple downloadable file URLs</li>
+<li>perf: increase WebSocket max message size to 10 MB</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.3.19/VE.dmg" length="27918969" type="application/octet-stream" sparkle:edSignature="jvTGdCq+5/jsLlX+BfgMW3WI9xXEcFMvQhso09tS0760LmK2fq0Xbhhd6NdNXdTQYfsHC892od3uhlzb2fVWAA=="/>
+        </item>
+
+        <item>
             <title>26.3.18</title>
             <pubDate>Wed, 18 Mar 2026 08:32:14 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
