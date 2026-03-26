@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.3.26</title>
+            <pubDate>Thu, 26 Mar 2026 16:54:02 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26326</sparkle:version>
+            <sparkle:shortVersionString>26.3.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.3.26</h2><p>What's new in this release:</p><ul><li>feat: enhance MemoryGalleryView to manage viewer state during album switching and improve user experience</li>
+<li>chore: comment out placeholder buttons in MemoryMultiSelectionBar for future implementation</li>
+<li>feat: implement GalleryVisitorsView and enhance MemoryGalleryView with AI face recognition and upload limit handling</li>
+<li>fixed the stream end todo is not canceling issue</li>
+<li>chore: update binary library libve_local_store.a</li>
+<li>feat: update DictationSuccessView to display elapsed duration with improved formatting</li>
+<li>feat: implement DictationTimeline for enhanced tracking of dictation events and UI updates</li>
+<li>feat: enhance dictation timing tracking and UI updates for improved user experience</li>
+<li>reduced the scroll bar width, updated the scrolled to bottom button styles</li>
+<li>feat: add watermark deletion functionality and improve image positioning in MemoryGalleryView</li>
+<li>fixed logout not clearing chat data</li>
+<li>feat: add new localization string and update ComputerUseOverlayController</li>
+<li>questionire ui fixes</li>
+<li>feat: enhance ComputerUseOverlay functionality and improve error handling</li>
+<li>feat: enhance sharing functionality and improve memory view interactions</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.3.26/VE.dmg" length="29269116" type="application/octet-stream" sparkle:edSignature="AqW99vce3P9bIeV8DVPf2O+932rE7sC763s3lzWzZ9tcgBNQGWwq9qK+Hnn2QbxeM47RIltheJZPWdYf+0cvCQ=="/>
+        </item>
+
+        <item>
             <title>26.3.19</title>
             <pubDate>Wed, 18 Mar 2026 23:03:20 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
