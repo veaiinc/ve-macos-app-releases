@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.3.31</title>
+            <pubDate>Tue, 31 Mar 2026 16:45:02 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26331</sparkle:version>
+            <sparkle:shortVersionString>26.3.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.3.31</h2><p>What's new in this release:</p><ul><li>Loaders fixed</li>
+<li>Added gallery creation on enter button</li>
+<li>Refactor ChatMessageBubble to simplify attachment filtering; implement chat session renaming functionality in SettingSidebar and ChatManager; enhance chat UI with smooth scrolling and animation effects in chat.css and chat.js.</li>
+<li>feat: add ChromeNativeHostInstaller + cleanup VeMindService</li>
+<li>refactor: remove VeMindService - saves now via extension API</li>
+<li>Added search functionality</li>
+<li>Bugfix gallery</li>
+<li>Refactor ChatView and TodoListView for improved layout and scrollbar handling; add feedback functionality in ChatWebView. Update styles in chat.css and todo.css for consistency and responsiveness.</li>
+<li>transversal</li>
+<li>Converted Stack to Heap Memory</li>
+<li>Updated the tag deletion api</li>
+<li>check</li>
+<li>Grid layout</li>
+<li>Merge with master</li>
+<li>cc</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.3.31/VE.dmg" length="30628378" type="application/octet-stream" sparkle:edSignature="Owezjj+2jCfcuPP2uJXp41ctkpjZXIGpLsseqpG/EboZvFxnMnk5xUmvLOTsDJH/U7+m0sz6Rca/Ya33saDEBw=="/>
+        </item>
+
+        <item>
             <title>26.3.26</title>
             <pubDate>Thu, 26 Mar 2026 16:54:02 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
