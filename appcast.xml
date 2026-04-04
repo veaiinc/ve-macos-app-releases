@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.04</title>
+            <pubDate>Sat, 04 Apr 2026 13:08:35 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26404</sparkle:version>
+            <sparkle:shortVersionString>26.4.04</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.04</h2><p>What's new in this release:</p><ul><li>race condition fix</li>
+<li>limit pop up</li>
+<li>Upgrade Link</li>
+<li>chat style and log</li>
+<li>fieldId in file paylaod</li>
+<li>Notch Login fixed</li>
+<li>Refactor onboarding flow to improve user experience. Added a delay before displaying the onboarding window and centered it on the main screen. Enhanced logging for onboarding completion and early closure scenarios.</li>
+<li>logs</li>
+<li>Implement onboarding step for cloud storage feature and update versioning logic. Added StorageView component and adjusted onboarding flow to include storage step. Updated onboarding version to 5 and improved user detection for existing users.</li>
+<li>check</li>
+<li>fixed chatbar layout</li>
+<li>changes</li>
+<li>Live URL</li>
+<li>sub plans</li>
+<li>Updated the share option</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.04/VE.dmg" length="31397582" type="application/octet-stream" sparkle:edSignature="XTGK/rYlc9xaPo58GOYiPIV9R4agHH2lWtBzk+OcE37T29lDK3jfydnG5Ou+3U1pA0R0QYhdJ8Am4I2WQ/8MCQ=="/>
+        </item>
+
+        <item>
             <title>26.3.31</title>
             <pubDate>Tue, 31 Mar 2026 16:45:02 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
