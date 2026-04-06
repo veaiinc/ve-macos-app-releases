@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.06</title>
+            <pubDate>Mon, 06 Apr 2026 15:19:31 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26406</sparkle:version>
+            <sparkle:shortVersionString>26.4.06</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.06</h2><p>What's new in this release:</p><ul><li>Hand Notification Api call</li>
+<li>trash UI</li>
+<li>Trash Feature</li>
+<li>Add hover effect to settings icon in sidebar</li>
+<li>added in shortcut handler cmnd + K</li>
+<li>changed the chat history alignment</li>
+<li>cmnd + k tabs defined</li>
+<li>Cmnd K shortcut files fixed</li>
+<li>Team Members View color change</li>
+<li>white and dark mode tool tip</li>
+<li>handled showing voice instructions response inside chat if app is focused</li>
+<li>Tool Tip Visible Instantly</li>
+<li>wip voice instruction inside chat</li>
+<li>Websocket and Hand Notification</li>
+<li>Crash report to web slack</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.06/VE.dmg" length="31966590" type="application/octet-stream" sparkle:edSignature="uFqEsjnSvDqsFzTipqsTErnA0d/f/IVa9UEY97oZUUT2PU39KyOED/tTtW16OJmUzYzWqlhgf0nSUV1sbAZPAA=="/>
+        </item>
+
+        <item>
             <title>26.4.04</title>
             <pubDate>Sat, 04 Apr 2026 13:08:35 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
