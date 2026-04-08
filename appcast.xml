@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.08</title>
+            <pubDate>Wed, 08 Apr 2026 19:02:11 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26408</sparkle:version>
+            <sparkle:shortVersionString>26.4.08</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.08</h2><p>What's new in this release:</p><ul><li>Add focus handling for title input in MeetingSummaryView and optimize proactive cards rendering in RoutineListView. Implement workspace switch observer in RoutinesViewModel to clear cached data on workspace change.</li>
+<li>Remove unused PBXFileSystemSynchronizedRootGroup entries from project.pbxproj to streamline project structure and improve maintainability.</li>
+<li>Refactor report skeleton in RoutineDetailView to improve layout and visual consistency. Introduced a new sectionSkeleton function for better organization of bullet items and descriptions, enhancing the overall user experience in both light and dark themes.</li>
+<li>Refactor RoutineDetailView to utilize WKWebView for rendering execution reports, enhancing performance and consistency with chat views. Introduced a new RoutineReportWebView component for markdown rendering, and improved loading states with skeleton views. Updated RoutineExecutionsSidebar to use LazyVStack for better performance and simplified execution row handling. Added CSS and HTML resources for report styling and rendering.</li>
+<li>Update KeyboardMonitor thresholds for quick tap, double tap, and dictation hold delays to improve responsiveness. Add debug trace logs for instruction key handling in KeyboardMonitor and InstructionService to aid in troubleshooting. Enhance error handling in SubscriptionService to prevent logging of cancelled requests.</li>
+<li>delete proactive card</li>
+<li>proactive card</li>
+<li>Refactor badge integration checks in ChatContentView to ensure case-insensitive comparison for connected app types. This improves the accuracy of badge visibility and unconnected integrations display.</li>
+<li>added basic chat edit</li>
+<li>Enhance subscription management by adding localized messages for renewal prompts and updating UI components to reflect subscription status. Modify ConnectorsView and TeamMembersView to disable actions when the subscription is expired, and ensure appropriate feedback is provided to users. Update SettingSidebar to show a trial ended card when applicable.</li>
+<li>fixed meeting is showing chat listening issue</li>
+<li>Enhance VEAIViewCoordinator with inline side effects for state setters, improving responsiveness and user experience. Update health monitoring in LowLevelKeyTap to ensure event tap reliability. Modify subscription checks in DictationService and MeetingService to include warning UI, enhancing user feedback during limit checks.</li>
+<li>Update showTodoListInFloatingWindow logic to handle specific chat sessions from normal chat settings, enhancing user experience by directing to the appropriate chat window.</li>
+<li>Enhance VEAIViewModel to observe changes in the active todo list from ChatManager, updating the dynamic notch width accordingly. Update matters.swift to adjust extra width for both floating chat and normal chat todo indicators.</li>
+<li>Enhance dependency injection for Auth and Subscription services across multiple managers and services. This refactor improves testability by allowing for easier substitution of dependencies in production and testing environments. Additionally, introduce a Combine publisher for `authState` in `AuthManaging` to facilitate reactive UI updates. Update related code to utilize these new patterns, ensuring consistent access to authentication and subscription states.</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.08/VE.dmg" length="32509171" type="application/octet-stream" sparkle:edSignature="4jZLUEtiHU1evI7Qf+elIpjsyPuX2PcdMSUj4VKvKs8Hm9aMFNYLXni4RSHiclJINrLex7wLW7gMeIeM0BczCQ=="/>
+        </item>
+
+        <item>
             <title>26.4.06</title>
             <pubDate>Mon, 06 Apr 2026 15:19:31 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
