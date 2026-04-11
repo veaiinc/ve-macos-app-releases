@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.11</title>
+            <pubDate>Sat, 11 Apr 2026 15:26:59 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26411</sparkle:version>
+            <sparkle:shortVersionString>26.4.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.11</h2><p>What's new in this release:</p><ul><li>added the pdf preview</li>
+<li>Update dictation state checks and sound playback logic for improved user experience</li>
+<li>changes</li>
+<li>Handle feature error during instruction recording for improved error management</li>
+<li>Add condition to check dictation state in active view update logic for improved content visibility</li>
+<li>Set default value of usePillMode to false for improved initial user experience</li>
+<li>Add dictation hint state and update related logic for improved user guidance</li>
+<li>Implement auto-send confidence feature in IntentMailView</li>
+<li>resolve the issue</li>
+<li>Enhance routine execution fetching with meeting prep support</li>
+<li>Add Customize settings page with display style toggle; refactor MyProfileView to remove old toggle implementation</li>
+<li>Refactor draft instructions in IntentMailView and update localization</li>
+<li>Clamp pill position within screen bounds during drag; update position saving logic for improved usability</li>
+<li>Enhance pill UI to display meeting bars during active states; update listening and dictation phases for improved visibility</li>
+<li>fix: remove buggy idle accumulator that caused 4-hour stale startTime</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.11/VE.dmg" length="33413619" type="application/octet-stream" sparkle:edSignature="0tDduSn+/F/ITln5S4nz4mQttKcQIt2a0r+0OHOzAzdwS+3CLhuoISCRwAGta1AoPQS1/vWwhGbisHRM9Cm/DA=="/>
+        </item>
+
+        <item>
             <title>26.4.08</title>
             <pubDate>Wed, 08 Apr 2026 19:02:11 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
