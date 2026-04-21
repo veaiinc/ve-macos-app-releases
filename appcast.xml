@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.21</title>
+            <pubDate>Tue, 21 Apr 2026 07:00:54 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26421</sparkle:version>
+            <sparkle:shortVersionString>26.4.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.21</h2><p>What's new in this release:</p><ul><li>chore(sidebar): drop standalone Search nav item</li>
+<li>feat(proactive-cards): Ask AI opens chat page for card's sessionId</li>
+<li>feat(proactive-cards-tab): redesigned card detail sidebar + list search/filters</li>
+<li>Implement suppression logic for FloatingWindowController when Unified Inbox is active</li>
+<li>Refactor widget positioning logic for improved user experience</li>
+<li>Refactor pill positioning logic for improved visibility</li>
+<li>Allow AskVe card to coexist with meeting card (stacked)</li>
+<li>Show "Meeting ended" in pill mode (missing handoff)</li>
+<li>Pill priority: meeting > instructionFlow so AskVe card coexists</li>
+<li>Enhance loading experience with skeleton views</li>
+<li>Refactor loading indicators to use skeleton views</li>
+<li>Concurrent meeting + Ctrl-hold: route to AskVe card; label meetingEnd</li>
+<li>Add skeleton loading view for recent meetings</li>
+<li>Pill meeting-icon tap: mirror menu-bar Quick Note nav chain</li>
+<li>Fix pill icon clicks: add missing .onTapGesture</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.21/VE.dmg" length="36754706" type="application/octet-stream" sparkle:edSignature="RSwWOmqt+C8HyIrOTvpaQ6d6QPrqRvSKgYZnHM2aj3WzIQBPmz+W796beqw6MGovoXinh5YXfo5FnIuQByXqDQ=="/>
+        </item>
+
+        <item>
             <title>26.4.11</title>
             <pubDate>Sat, 11 Apr 2026 15:26:59 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
