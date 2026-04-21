@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.22</title>
+            <pubDate>Tue, 21 Apr 2026 17:42:02 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26422</sparkle:version>
+            <sparkle:shortVersionString>26.4.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.22</h2><p>What's new in this release:</p><ul><li>feat(localization): enhance localized strings and improve inbox read state handling</li>
+<li>feat(cards): add informational overlay to AskVeCard and FnHoverCard</li>
+<li>fix(widgets): correct actions-hub base URL + route through BaseURLService</li>
+<li>feat(chat): implement dynamic placeholder updates for chat input fields</li>
+<li>feat(localization): update and enhance localized strings for improved clarity</li>
+<li>design(proactive): acted-card state in the list</li>
+<li>fix(widgets): refetch the domain list after a widget executes</li>
+<li>design + persist(widgets): calmer disclosure, neutral expiry, on-disk state</li>
+<li>design(detail): restore priority + labels, auto-mark-read on open</li>
+<li>design(proactive): report disclosure, selection rail clip, filter unify</li>
+<li>refactor(localization): streamline suspended account messaging and enhance UI consistency</li>
+<li>feat(notifications): enhance user experience by managing restricted states and updating UI components</li>
+<li>crash repot fix</li>
+<li>design(detail): inline close × with favourite/delete row</li>
+<li>design(proactive): restrained Apple-grade redesign of card + panel</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.22/VE.dmg" length="36188997" type="application/octet-stream" sparkle:edSignature="QoOyOIJfvCPLAI/IPQQG+o1el+SHMigdQEG0KyjKTi02wL+tL8VwDe6oEohOlQ2kK5u1c96YONS/NAhIIRTICQ=="/>
+        </item>
+
+        <item>
             <title>26.4.21</title>
             <pubDate>Tue, 21 Apr 2026 07:00:54 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
