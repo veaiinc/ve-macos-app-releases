@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.24</title>
+            <pubDate>Thu, 23 Apr 2026 06:16:53 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26424</sparkle:version>
+            <sparkle:shortVersionString>26.4.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.24</h2><p>What's new in this release:</p><ul><li>26.4.23</li>
+<li>edeg case</li>
+<li>Update WebSocket URLs to production endpoints</li>
+<li>popup chnages</li>
+<li>feat(chat): update thinking phrases and improve user feedback during processing</li>
+<li>fix(websocket): update WebSocket URLs for unified audio services</li>
+<li>fix(websocket): update WebSocket URLs to new production endpoint</li>
+<li>feat(activity-pipeline): capture VE app activity like any other app</li>
+<li>feat(inbox): add Figma-exported icons and improve header pill functionality</li>
+<li>fix(websocket): update WebSocket URLs and improve error handling</li>
+<li>audio stable</li>
+<li>feat(routines): add phone number notification feature in RoutineFormModal and update routing for deep links</li>
+<li>change development toggle</li>
+<li>handled page only showing page icon if presend, handled showing a cold start fallback, handled image picker not showing issue</li>
+<li>feat(localization): add theme showcase entry and improve error handling in prediction flow</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.24/VE.dmg" length="37116939" type="application/octet-stream" sparkle:edSignature="w+ES+H7imYVp1H0NNS3xR1AflK5zqMX6czQVcASw0Ku4CTv6x5SLtw+cItnu74954APl4pTbsLG+OEa9aLB8Aw=="/>
+        </item>
+
+        <item>
             <title>26.4.23</title>
             <pubDate>Thu, 23 Apr 2026 05:48:25 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
