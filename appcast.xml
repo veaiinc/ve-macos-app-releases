@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.25</title>
+            <pubDate>Thu, 23 Apr 2026 17:13:09 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26425</sparkle:version>
+            <sparkle:shortVersionString>26.4.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.25</h2><p>What's new in this release:</p><ul><li>Enhance Sparkle dialog handling in SoftwareUpdater</li>
+<li>Enhance SoftwareUpdater screen handling for Sparkle dialogs</li>
+<li>Refactor localization strings and update SoftwareUpdater for Sparkle integration</li>
+<li>saram url</li>
+<li>chanegd assembly</li>
+<li>changed to sarvam</li>
+<li>meeting changes</li>
+<li>Update WebSocket URLs in ChatManager and BaseURLService for production environment</li>
+<li>Refactor localization strings and enhance inbox scrolling behavior</li>
+<li>Update RoutineFormModal to reflect AI Call terminology</li>
+<li>Refactor EmailBodyWebView to remove dark mode handling and improve HTML rendering</li>
+<li>Enhance chat functionality and improve paste handling</li>
+<li>meeting isuse fix</li>
+<li>Redesign ConnectedIntegrationModal and GranolaAPIKeyModal to match Figma specifications; enhance ConnectorsView with improved layout and search functionality. Implement caching for connected integrations in ConnectorsService to optimize API calls.</li>
+<li>Update localization strings, enhance UnifiedInboxView, and improve AuthManager workflow</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.25/VE.dmg" length="37416433" type="application/octet-stream" sparkle:edSignature="GXyMlBUQkcXdGV1J4elDFX94Oas2hevPQ6Z8dDlCXQ8AEKt6xZ6eLRXjTJDz+qnMYOb8sIVnd018UfXpqeBNAQ=="/>
+        </item>
+
+        <item>
             <title>26.4.24</title>
             <pubDate>Thu, 23 Apr 2026 06:16:53 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
