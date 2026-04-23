@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.23</title>
+            <pubDate>Thu, 23 Apr 2026 05:48:25 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26423</sparkle:version>
+            <sparkle:shortVersionString>26.4.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.23</h2><p>What's new in this release:</p><ul><li>edeg case</li>
+<li>Update WebSocket URLs to production endpoints</li>
+<li>popup chnages</li>
+<li>feat(chat): update thinking phrases and improve user feedback during processing</li>
+<li>fix(websocket): update WebSocket URLs for unified audio services</li>
+<li>fix(websocket): update WebSocket URLs to new production endpoint</li>
+<li>feat(activity-pipeline): capture VE app activity like any other app</li>
+<li>feat(inbox): add Figma-exported icons and improve header pill functionality</li>
+<li>fix(websocket): update WebSocket URLs and improve error handling</li>
+<li>audio stable</li>
+<li>feat(routines): add phone number notification feature in RoutineFormModal and update routing for deep links</li>
+<li>change development toggle</li>
+<li>handled page only showing page icon if presend, handled showing a cold start fallback, handled image picker not showing issue</li>
+<li>feat(localization): add theme showcase entry and improve error handling in prediction flow</li>
+<li>refactor(settings): update Phone OTP modal and phone number field for improved user experience and validation</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.23/VE.dmg" length="37117799" type="application/octet-stream" sparkle:edSignature="6nlQj6x+PpmkkYQg45FaO534qk3mPjQaEKx+4EWOxSgiy/iOLOI2+5+b5+KkCRWSh21K3+2oNBfkRF7rSFAtAg=="/>
+        </item>
+
+        <item>
             <title>26.4.22</title>
             <pubDate>Tue, 21 Apr 2026 17:42:02 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
