@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.26</title>
+            <pubDate>Fri, 24 Apr 2026 16:18:55 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26426</sparkle:version>
+            <sparkle:shortVersionString>26.4.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.26</h2><p>What's new in this release:</p><ul><li>Refactor notification channel handling in RoutineFormModal to simplify email, WhatsApp, and phone number configurations. Updated logic to enable/disable channels based on user settings, removing unnecessary conditional checks for email and phone number inputs.</li>
+<li>feat: enhance AppEventService to include OS version, app version, and device model in event payload</li>
+<li>Enhance Unified Inbox support for Outlook and update related UI components</li>
+<li>Refactor PillContentView and SubscriptionService for improved state handling</li>
+<li>Enhance email thread performance and UI behavior in UnifiedInboxView</li>
+<li>Update font styles in RoutineFormModal for notification labels to enhance visual consistency. Changed font from description to paragraph for Email, Whatsapp, and AI Phone call sections.</li>
+<li>Fix conditional checks in RoutineFormModal to ensure phone number input is only displayed when a phone number is not stored. This improves the logic for enabling WhatsApp and phone number inputs.</li>
+<li>Refactor window behavior in SettingsWindowController for fullscreen handling</li>
+<li>Add phone number verification feature in RoutineFormModal</li>
+<li>Update processing watchdog timeout and enhance liveness tracking in PredictionStore and UnifiedAudioSocketClient</li>
+<li>meeting and calender issue</li>
+<li>Update shimmer effects in ActiveStatePillCard and PillContentView</li>
+<li>Refactor shimmer icons in ActiveStatePillCard and PillContentView</li>
+<li>Implement hover tracking for AskVeCard and related components</li>
+<li>Add localization entry for "Theme Showcase" and update KeyboardMonitor comments</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.26/VE.dmg" length="37574971" type="application/octet-stream" sparkle:edSignature="SwItBuSS7ohX324EQEeGllqlmiA5WgkRly/jLI3BWrZ1MBR61UoNWb+/mCvnLuWE/vrUpHLZ/aTmo2i8HyJEAw=="/>
+        </item>
+
+        <item>
             <title>26.4.25</title>
             <pubDate>Thu, 23 Apr 2026 17:13:09 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
