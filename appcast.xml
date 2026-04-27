@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.4.29</title>
+            <pubDate>Mon, 27 Apr 2026 16:10:54 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26429</sparkle:version>
+            <sparkle:shortVersionString>26.4.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.4.29</h2><p>What's new in this release:</p><ul><li>Refactor PasteHelper for synchronous typing and improved event handling</li>
+<li>Refine notch bar animation logic in ContentView for improved user experience</li>
+<li>Enhance notch visibility and animation in ContentView and VEAIViewCoordinator</li>
+<li>Add localized strings for new page prompts and section titles</li>
+<li>Add localized string for "Theme Showcase" and implement NotchMeetingTimer for active meetings</li>
+<li>26.4.27</li>
+<li>Improve notch visibility logic in VEAIViewCoordinator to enhance user experience by hiding the notch during specific states, such as when info widgets are displayed or in restricted states. Additionally, implement a network check in WebSocketTransport to prevent unnecessary connection attempts when offline, ensuring smoother user interactions and reducing log noise.</li>
+<li>Enhance user experience by introducing below-notch widgets for various states, including no internet, subscription expiration, and limit warnings. Updated NotchHoverMenuView to display an education widget for new users. Refactored error handling in VEAIViewCoordinator to streamline error display logic. Added localized strings for user guidance.</li>
+<li>changes chats and cross ve icon</li>
+<li>Retire Pill UI in favor of Notch-only display style. Updated AppDelegate to clear `usePillMode` setting on launch. Removed related UI components and settings references. Adjusted onboarding and settings layout accordingly.</li>
+<li>fix(sidebar): icon-rail Pages tap clears open page</li>
+<li>fix(pages): lighten typography weights to match ve-web aesthetic</li>
+<li>feat(pages): native grid replaces embed picker on Pages tab</li>
+<li>fix(sidebar): navigation-intent flag stops SettingsLayout from clearing tap</li>
+<li>fix(sidebar): entity page tap opens directly, no two-tap detour</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.4.29/VE.dmg" length="37807942" type="application/octet-stream" sparkle:edSignature="mqiOx5hbYBdIt4ltmYlyl1fnliflxwEDJi4aneJnRFJ/8kGxTu1NHmreiGA67OAJPqLtVyQtBDN2xz4r2U4mBA=="/>
+        </item>
+
+        <item>
             <title>26.4.27</title>
             <pubDate>Sat, 25 Apr 2026 16:13:44 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
