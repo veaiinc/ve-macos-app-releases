@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.5.30</title>
+            <pubDate>Sat, 30 May 2026 14:21:10 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26530</sparkle:version>
+            <sparkle:shortVersionString>26.5.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.5.30</h2><p>What's new in this release:</p><ul><li>Refactor localization strings and enhance OrbField and BrowserBridgeService functionality</li>
+<li>Update ProactiveOverlayHomeRootView to default to chat tab and enhance InboxTabView with new compose flow</li>
+<li>Enhance permission handling for Fn key functionality by updating permission checks for Screen Recording and Microphone access. Improved user feedback in KeyboardMonitor and UnifiedAudioService to ensure proper permission nudges are displayed when required. Updated PermissionHUD message to reflect new accessibility requirements.</li>
+<li>Add pages mode to BottomDock in ProactiveOverlayHomeRootView</li>
+<li>Refactor app behavior and localization strings</li>
+<li>Update PermissionHUD message for clarity and enhance InboxTabView with select-all functionality. Added a select-all checkbox to the filter bar, improving user interaction for bulk actions. Adjusted the description in PermissionHUD to reflect updated accessibility requirements.</li>
+<li>fixes</li>
+<li>added editor</li>
+<li>Refactor InboxTabView layout to improve padding and background styling. Updated horizontal padding for better visual balance and adjusted background opacity for a more subtle design. Enhanced right pane behavior to fill available width, aligning with V2 design principles.</li>
+<li>Refactor localization strings and update overlay settings</li>
+<li>Refactor InboxTabView layout and enhance hover interactions.</li>
+<li>Optimize batch deletion of selected threads in InboxTabView for improved performance and concurrency handling. Implemented parallel processing of thread deletions to enhance user experience when managing multiple threads.</li>
+<li>Refactor InboxTabView layout and enhance chat functionality</li>
+<li>Refactor RoutinesViewModel and update InboxTabView layout</li>
+<li>Add chat overlay functionality to InboxTabView</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.5.30/VE.dmg" length="44718003" type="application/octet-stream" sparkle:edSignature="IMZwhf5lRjvJbUo9HTOWC8G26S6Y8WJZ6tkPBi6TDFq7R4J5H6G5IXUA1XffUbEml1d3ju78MVa/6k+RNAxLDA=="/>
+        </item>
+
+        <item>
             <title>26.4.29</title>
             <pubDate>Mon, 27 Apr 2026 16:10:54 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
