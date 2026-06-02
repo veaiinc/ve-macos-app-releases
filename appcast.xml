@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.6.02</title>
+            <pubDate>Tue, 02 Jun 2026 15:21:01 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26602</sparkle:version>
+            <sparkle:shortVersionString>26.6.02</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.6.02</h2><p>What's new in this release:</p><ul><li>meeinf issues</li>
+<li>Update InboxDraftPreviewCard to use theme-aware ink tokens for improved readability in light and dark modes. This change replaces hard-coded white text with dynamic colors that adapt to the user's theme, ensuring legibility across different backgrounds.</li>
+<li>Refactor app launch behavior to prevent focus stealing when user switches apps</li>
+<li>chat middle content</li>
+<li>resolved check for update issue</li>
+<li>chat ui changes</li>
+<li>Adjust UI positioning for profile and chat icons in Proactive Overlay</li>
+<li>Add in-app update available banner in Proactive Overlay</li>
+<li>Fix Bluetooth mic switching during active meeting</li>
+<li>Fix meeting audio not sent when using headphones</li>
+<li>resolved selected paste issue</li>
+<li>Fix dictation session handling in MagicInkController to prevent microphone from staying on during empty rects exit and screen absence. Added cancellation of dictation in both scenarios to address regression issues.</li>
+<li>Enhance offline user experience with new "No internet connection" messaging</li>
+<li>Enhance showStatus functionality to handle network dependency</li>
+<li>Enhance onboarding flow by ensuring authorized users do not land on the sign-in step and improving permission handling</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.02/VE.dmg" length="44836357" type="application/octet-stream" sparkle:edSignature="VjJtkHrzNOcT3AR0ZWayMYhwnyDiSXXra4BLMilaWbWt+1hYLSl3kyc3IVi05hWDoeKyQAJ0XBRGgvwvKDSMDA=="/>
+        </item>
+
+        <item>
             <title>26.5.30</title>
             <pubDate>Sat, 30 May 2026 14:21:10 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
