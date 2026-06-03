@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.6.03</title>
+            <pubDate>Wed, 03 Jun 2026 17:13:17 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26603</sparkle:version>
+            <sparkle:shortVersionString>26.6.03</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.6.03</h2><p>What's new in this release:</p><ul><li>Add Granola API-key modal for non-OAuth connector flow</li>
+<li>changes</li>
+<li>Refactor MemoryGalleryView components to use VeWebTokens for background styling</li>
+<li>Fix scroll not working for summary, analytics, and transcription tabs</li>
+<li>Implement structured cancellation for file uploads and set idle timeout for upload requests</li>
+<li>Refactor MemoryGalleryView and video upload handling</li>
+<li>Auto-pause meeting during prediction/dictation</li>
+<li>Hide calendar events from menu bar after their start time</li>
+<li>Enhance file upload handling by implementing streaming uploads for large non-image and non-PDF files, reducing memory usage during uploads. Introduce a method for generating thumbnails directly from file URLs without loading files into memory. Update MIME type resolution to utilize system type database for better accuracy. Additionally, improve glyph selection for MemoryFiles with a fallback mechanism based on file extensions.</li>
+<li>Refactor signed preview URL caching in FoldersService</li>
+<li>Update Localizable strings and project version</li>
+<li>meeinf issues</li>
+<li>Update InboxDraftPreviewCard to use theme-aware ink tokens for improved readability in light and dark modes. This change replaces hard-coded white text with dynamic colors that adapt to the user's theme, ensuring legibility across different backgrounds.</li>
+<li>Refactor app launch behavior to prevent focus stealing when user switches apps</li>
+<li>chat middle content</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.03/VE.dmg" length="45025370" type="application/octet-stream" sparkle:edSignature="KisSBYmSKq/poQp+T9C0hBfz/P5n0hWYfpo6mHSYf1vFT8XpWbVMN7/kzaDB5FNHkG73KIP/+k1UK/baFFpzBQ=="/>
+        </item>
+
+        <item>
             <title>26.6.02</title>
             <pubDate>Tue, 02 Jun 2026 15:21:01 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
