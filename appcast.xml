@@ -2,28 +2,28 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.6.03</title>
-            <pubDate>Wed, 03 Jun 2026 17:13:17 +0000</pubDate>
+            <title>26.6.06</title>
+            <pubDate>Sat, 06 Jun 2026 17:33:40 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26603</sparkle:version>
-            <sparkle:shortVersionString>26.6.03</sparkle:shortVersionString>
+            <sparkle:version>26606</sparkle:version>
+            <sparkle:shortVersionString>26.6.06</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.6.03</h2><p>What's new in this release:</p><ul><li>Add Granola API-key modal for non-OAuth connector flow</li>
-<li>changes</li>
-<li>Refactor MemoryGalleryView components to use VeWebTokens for background styling</li>
-<li>Fix scroll not working for summary, analytics, and transcription tabs</li>
-<li>Implement structured cancellation for file uploads and set idle timeout for upload requests</li>
-<li>Refactor MemoryGalleryView and video upload handling</li>
-<li>Auto-pause meeting during prediction/dictation</li>
-<li>Hide calendar events from menu bar after their start time</li>
-<li>Enhance file upload handling by implementing streaming uploads for large non-image and non-PDF files, reducing memory usage during uploads. Introduce a method for generating thumbnails directly from file URLs without loading files into memory. Update MIME type resolution to utilize system type database for better accuracy. Additionally, improve glyph selection for MemoryFiles with a fallback mechanism based on file extensions.</li>
-<li>Refactor signed preview URL caching in FoldersService</li>
-<li>Update Localizable strings and project version</li>
-<li>meeinf issues</li>
-<li>Update InboxDraftPreviewCard to use theme-aware ink tokens for improved readability in light and dark modes. This change replaces hard-coded white text with dynamic colors that adapt to the user's theme, ensuring legibility across different backgrounds.</li>
-<li>Refactor app launch behavior to prevent focus stealing when user switches apps</li>
-<li>chat middle content</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.03/VE.dmg" length="45025370" type="application/octet-stream" sparkle:edSignature="KisSBYmSKq/poQp+T9C0hBfz/P5n0hWYfpo6mHSYf1vFT8XpWbVMN7/kzaDB5FNHkG73KIP/+k1UK/baFFpzBQ=="/>
+            <description><![CDATA[<h2>🚀 VE v26.6.06</h2><p>What's new in this release:</p><ul><li>Refactor OnboardingOverlayView to improve visual distinction of active step</li>
+<li>Implement self-healing mechanism for prediction latches in MagicInkController</li>
+<li>Refactor meeting loading logic for improved initial rendering</li>
+<li>Refactor onboarding flow to improve user experience for returning users. Updated default onboarding start step logic to allow returning users to skip previously completed steps and jump directly to new content. Added documentation for onboarding step behavior in `VEAIViewCoordinator` and `AppDelegate`.</li>
+<li>Update onboarding version to v9, introducing the Activation education step for improved user guidance. This change ensures users who completed the previous version are re-exposed to the updated onboarding flow.</li>
+<li>Update Connectors and Integration Modal UI for improved user experience</li>
+<li>Refactor accessibility input handling and enhance Magic Ink cursor behavior</li>
+<li>Enhance ProactiveOverlayFocusView and Connectors functionality</li>
+<li>Implement OAuth callback handling improvements and UI enhancements</li>
+<li>Enhance Proactive Overlay and Connectors functionality</li>
+<li>Add mouse pointers section for hands-free dictation settings</li>
+<li>Update onboarding step validation to accommodate an additional step in the onboarding process. Adjusted the range checks in both the resume and save functions to allow for steps 1 through 5, enhancing the onboarding experience.</li>
+<li>Disable inbox prefetching in various components to optimize performance and reduce unnecessary API calls. Comments added to clarify the rationale for disabling prefetching in AppDelegate, VEAIApp, and SidebarIconRail, indicating that the Settings Email Inbox now loads on demand.</li>
+<li>meeting issues fix</li>
+<li>hold and double click in mouse</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.06/VE.dmg" length="47478200" type="application/octet-stream" sparkle:edSignature="zaxB42T+D0uIBvIxY5dm4Z1qeCRmk06rdLS//02IyeUnGJe7mI8xopqjzOOThI5FKTsnJjr8PM6ac9y/MQwgAw=="/>
         </item>
 
         <item>
