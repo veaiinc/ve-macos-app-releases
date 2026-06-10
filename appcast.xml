@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.6.11</title>
+            <pubDate>Wed, 10 Jun 2026 20:54:22 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26611</sparkle:version>
+            <sparkle:shortVersionString>26.6.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.6.11</h2><p>What's new in this release:</p><ul><li>Refactor onboarding and audio configuration for improved user experience</li>
+<li>Update localization strings and versioning for release 26.6.10</li>
+<li>Enhance onboarding experience and improve intent model interaction</li>
+<li>Refactor ProactiveOverlayGlassyChatBox and HomeRootView for improved functionality and UI</li>
+<li>Refactor VEAIViewCoordinator and ProactiveOverlayFocusView for improved state management and animation handling</li>
+<li>Enhance localization strings and improve ClosedNotchContentView state management</li>
+<li>Add observed property for overlay theme management in leaderboard section</li>
+<li>Refactor date range calculation in LeaderboardViewModel for UTC alignment</li>
+<li>Implement loading skeleton for leaderboard section in ProactiveOverlay settings</li>
+<li>Add leaderboard feature to ProactiveOverlay settings</li>
+<li>Enhance IntentMailView by adding an observed property for overlay theme management, ensuring real-time updates for light/dark mode toggling. This change prevents stale color values in UI components, improving the overall user experience.</li>
+<li>Refactor Intent Mail integration into ProactiveOverlay, introducing a new top-level app tab and updating related settings. Remove deprecated demo loop functionality from AppDelegate and VEAIViewCoordinator. Enhance UI components for Intent Mail with overlay theme support, ensuring a cohesive user experience across different contexts.</li>
+<li>fix(audio): prevent image_data leakage during dictation sessions</li>
+<li>Revert "fix(audio): enable Voice Processing AEC on voice-flow mic capture"</li>
+<li>fix(voice): pin end-payload mode to the session-captured app behavior mode</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.11/VE.dmg" length="50039146" type="application/octet-stream" sparkle:edSignature="K6Qqx3UmEYupvXaT4z5nKThssRSnOGdMwfr2x03B1MbUvcTi+JGw75g0DofzMODRSxaXKqucrqxPvX3VP/45CA=="/>
+        </item>
+
+        <item>
             <title>26.6.10</title>
             <pubDate>Wed, 10 Jun 2026 16:08:11 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
