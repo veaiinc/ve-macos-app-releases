@@ -2,28 +2,28 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.6.07</title>
-            <pubDate>Mon, 08 Jun 2026 12:33:27 +0000</pubDate>
+            <title>26.6.10</title>
+            <pubDate>Wed, 10 Jun 2026 16:08:11 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26607</sparkle:version>
-            <sparkle:shortVersionString>26.6.07</sparkle:shortVersionString>
+            <sparkle:version>26610</sparkle:version>
+            <sparkle:shortVersionString>26.6.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.6.07</h2><p>What's new in this release:</p><ul><li>timer cooldown</li>
-<li>chore: added only admin update model name and behavior</li>
-<li>meeting new ui and attendees</li>
-<li>Enhance ProactiveOverlay's FocusView with smoother animations and layout adjustments</li>
-<li>Enhance DictationService and MagicInkController for improved dictation handling</li>
-<li>Add subscription lifecycle handling to AppDelegate and RealtimeSocketClient</li>
-<li>Remove unused "Theme Showcase" entry from Localizable strings and temporarily disable test step in pre-release script due to failing tests.</li>
-<li>Refactor ProactiveOverlay's FocusView and Connectors to improve modal management</li>
-<li>conditon on hover notch when meeting detected</li>
-<li>Implement session reset functionality across multiple services</li>
-<li>Refactor ProactiveOverlay's Connectors section and enhance OverlaySettingsView</li>
-<li>resolved meeting flow</li>
-<li>Enhance ProactiveOverlay's Connectors section with add-module functionality</li>
-<li>Implement test environment handling to skip live launch effects during XCTest</li>
-<li>Remove "Refer & Earn" item from settings sidebar navigation</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.07/VE.dmg" length="47529925" type="application/octet-stream" sparkle:edSignature="JOgnu4e9DwF3Xqj/waxMkI7PICEGwp/5pF6kuolkDp4RTPF/Pk59TMp7wztBXrycZb0wdfUO6W8kQD1Aa9dmBg=="/>
+            <description><![CDATA[<h2>🚀 VE v26.6.10</h2><p>What's new in this release:</p><ul><li>Enhance onboarding experience and improve intent model interaction</li>
+<li>Refactor ProactiveOverlayGlassyChatBox and HomeRootView for improved functionality and UI</li>
+<li>Refactor VEAIViewCoordinator and ProactiveOverlayFocusView for improved state management and animation handling</li>
+<li>Enhance localization strings and improve ClosedNotchContentView state management</li>
+<li>Add observed property for overlay theme management in leaderboard section</li>
+<li>Refactor date range calculation in LeaderboardViewModel for UTC alignment</li>
+<li>Implement loading skeleton for leaderboard section in ProactiveOverlay settings</li>
+<li>Add leaderboard feature to ProactiveOverlay settings</li>
+<li>Enhance IntentMailView by adding an observed property for overlay theme management, ensuring real-time updates for light/dark mode toggling. This change prevents stale color values in UI components, improving the overall user experience.</li>
+<li>Refactor Intent Mail integration into ProactiveOverlay, introducing a new top-level app tab and updating related settings. Remove deprecated demo loop functionality from AppDelegate and VEAIViewCoordinator. Enhance UI components for Intent Mail with overlay theme support, ensuring a cohesive user experience across different contexts.</li>
+<li>fix(audio): prevent image_data leakage during dictation sessions</li>
+<li>Revert "fix(audio): enable Voice Processing AEC on voice-flow mic capture"</li>
+<li>fix(voice): pin end-payload mode to the session-captured app behavior mode</li>
+<li>fix(audio): enable Voice Processing AEC on voice-flow mic capture</li>
+<li>Enhance Notch status handling by introducing a call-to-action (CTA) pill alongside status messages in the Notch Vision 2 interface. Implement a demo loop for testing status messages and CTAs, allowing for visual validation of the redesigned surface. Update related components to support the new CTA functionality, ensuring proper state management and user interaction.</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.10/VE.dmg" length="50062716" type="application/octet-stream" sparkle:edSignature="8IiKWGZxBwopbURcv66Jsrn1gNGi9t+H4iQhEW7OTisKgcqZomQcsl1zVc1yzuj9LX+2rext/Ty5JZJs43VVCw=="/>
         </item>
 
         <item>
