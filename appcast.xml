@@ -2,28 +2,28 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
-            <title>26.6.11</title>
-            <pubDate>Wed, 10 Jun 2026 20:54:22 +0000</pubDate>
+            <title>26.6.17</title>
+            <pubDate>Tue, 16 Jun 2026 19:43:14 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
-            <sparkle:version>26611</sparkle:version>
-            <sparkle:shortVersionString>26.6.11</sparkle:shortVersionString>
+            <sparkle:version>26617</sparkle:version>
+            <sparkle:shortVersionString>26.6.17</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.6.11</h2><p>What's new in this release:</p><ul><li>Refactor onboarding and audio configuration for improved user experience</li>
-<li>Update localization strings and versioning for release 26.6.10</li>
-<li>Enhance onboarding experience and improve intent model interaction</li>
-<li>Refactor ProactiveOverlayGlassyChatBox and HomeRootView for improved functionality and UI</li>
-<li>Refactor VEAIViewCoordinator and ProactiveOverlayFocusView for improved state management and animation handling</li>
-<li>Enhance localization strings and improve ClosedNotchContentView state management</li>
-<li>Add observed property for overlay theme management in leaderboard section</li>
-<li>Refactor date range calculation in LeaderboardViewModel for UTC alignment</li>
-<li>Implement loading skeleton for leaderboard section in ProactiveOverlay settings</li>
-<li>Add leaderboard feature to ProactiveOverlay settings</li>
-<li>Enhance IntentMailView by adding an observed property for overlay theme management, ensuring real-time updates for light/dark mode toggling. This change prevents stale color values in UI components, improving the overall user experience.</li>
-<li>Refactor Intent Mail integration into ProactiveOverlay, introducing a new top-level app tab and updating related settings. Remove deprecated demo loop functionality from AppDelegate and VEAIViewCoordinator. Enhance UI components for Intent Mail with overlay theme support, ensuring a cohesive user experience across different contexts.</li>
-<li>fix(audio): prevent image_data leakage during dictation sessions</li>
-<li>Revert "fix(audio): enable Voice Processing AEC on voice-flow mic capture"</li>
-<li>fix(voice): pin end-payload mode to the session-captured app behavior mode</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.11/VE.dmg" length="50039146" type="application/octet-stream" sparkle:edSignature="K6Qqx3UmEYupvXaT4z5nKThssRSnOGdMwfr2x03B1MbUvcTi+JGw75g0DofzMODRSxaXKqucrqxPvX3VP/45CA=="/>
+            <description><![CDATA[<h2>🚀 VE v26.6.17</h2><p>What's new in this release:</p><ul><li>Refactor update availability handling in ProactiveOverlay components</li>
+<li>Refactor time-of-day logic and greeting messages for clarity</li>
+<li>Refactor onboarding workspace URL handling for clarity and accuracy</li>
+<li>Enhance onboarding flow with workspace handle validation and availability check</li>
+<li>Refactor ProactiveOverlay components to streamline workspace management</li>
+<li>feat(OnboardingFlow): enforce onboarding as the sole login method for unauthorized users</li>
+<li>feat(VoiceFeatures): introduce VoiceFeatureSettings for managing dictation and voice context toggles, enhancing user control over voice functionalities</li>
+<li>Refactor ProactiveOverlay settings and navigation components for v6 design</li>
+<li>feat(UserProfilePopover): enhance role handling by incorporating ownership flag and raw role string for consistent display across views</li>
+<li>refactor(OnboardingFlow): simplify onboarding steps by removing permissions and activation stages</li>
+<li>refactor(ProactiveOverlay): hide "What's New" and "Privacy Controls" sections per product decision</li>
+<li>feat(ConnectorsService): enhance account identification by introducing displayLabel for better user experience</li>
+<li>feat(ProactiveOverlay): implement card restoration functionality and enhance daily brief presentation</li>
+<li>feat(ProactiveOverlay): enhance proactive card engagement tracking</li>
+<li>refactor(ProactiveOverlayHomeRootView): remove update available banner overlay</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.6.17/VE.dmg" length="50296100" type="application/octet-stream" sparkle:edSignature="OK+yfqh9+TyR8w0YJUDcgopIolM3YOGeBG0OEGeIzIkrI3uWAEwHs+AZf1pJCB17tp/GoZILIMPQ0Zb4/ZkaAg=="/>
         </item>
 
         <item>
