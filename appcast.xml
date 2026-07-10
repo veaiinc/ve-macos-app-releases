@@ -3,12 +3,13 @@
     <channel>
         <item>
             <title>26.7.10</title>
-            <pubDate>Fri, 10 Jul 2026 13:12:00 +0000</pubDate>
+            <pubDate>Fri, 10 Jul 2026 13:33:27 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26710</sparkle:version>
             <sparkle:shortVersionString>26.7.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🚀 VE v26.7.10</h2><p>What's new in this release:</p><ul><li>Refactor DMG signing identity detection in create-dmg.sh</li>
+            <description><![CDATA[<h2>🚀 VE v26.7.10</h2><p>What's new in this release:</p><ul><li>fix(release): correct DMG signing DR + same-path upload in create-dmg.sh</li>
+<li>Refactor DMG signing identity detection in create-dmg.sh</li>
 <li>fix(vapt): enable PKCE for all auth backends including auth.ve.ai</li>
 <li>fix(release): remove Slack webhook key from Info.plist + unblock release gate</li>
 <li>fix(auth): point auth base URL to production (auth.ve.ai)</li>
@@ -21,9 +22,8 @@
 <li>Revert "security(vapt sol1): route AX+input to sandboxed service, narrow execution service"</li>
 <li>docs(vapt sol1): mark XPC split IMPLEMENTED + add required runtime-test checklist</li>
 <li>security(vapt sol1): route AX+input to sandboxed service, narrow execution service</li>
-<li>security(vapt sol1): add sandboxed VEAIXPCPrivilegedUI XPC service (AX + input)</li>
-<li>security(vapt sol5): WS auth header cleanup — stop parsing/logging URL tokens</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.7.10/VE.dmg" length="53984085" type="application/octet-stream" sparkle:edSignature="NAHuq5jL/homMPNhG8bMRgjRy/nd4CsAqgUW7KXjaP1F+w5n+W9W1hUSkDFeZ/w39265m2QOT82Vzz6fYA3uDw=="/>
+<li>security(vapt sol1): add sandboxed VEAIXPCPrivilegedUI XPC service (AX + input)</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.7.10/VE.dmg" length="54041225" type="application/octet-stream" sparkle:edSignature="mzLabpRu2GKQiEUMf5w9H7ky7xXK9YAhegTTYy9uuJbPQhR4ffFhoU6iToe02NRK3EyBeCElevUl0lp8PgDiAQ=="/>
         </item>
 
         <item>
