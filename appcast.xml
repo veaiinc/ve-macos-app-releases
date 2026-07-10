@@ -3,7 +3,7 @@
     <channel>
         <item>
             <title>26.7.10</title>
-            <pubDate>Fri, 10 Jul 2026 13:09:26 +0000</pubDate>
+            <pubDate>Fri, 10 Jul 2026 13:12:00 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
             <sparkle:version>26710</sparkle:version>
             <sparkle:shortVersionString>26.7.10</sparkle:shortVersionString>
@@ -23,7 +23,7 @@
 <li>security(vapt sol1): route AX+input to sandboxed service, narrow execution service</li>
 <li>security(vapt sol1): add sandboxed VEAIXPCPrivilegedUI XPC service (AX + input)</li>
 <li>security(vapt sol5): WS auth header cleanup — stop parsing/logging URL tokens</li></ul>]]></description>
-            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.7.10/VE.dmg" length="53983996" type="application/octet-stream" sparkle:edSignature="vRMsUnb4h8Dzp+JCz8HzeTBdGrnwih3FE6bHy9g56xGAPTq14qM82HBR6RSVIPfsEv1QNjvLCg8AVU6UNZY3Bw=="/>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.7.10/VE.dmg" length="53984085" type="application/octet-stream" sparkle:edSignature="NAHuq5jL/homMPNhG8bMRgjRy/nd4CsAqgUW7KXjaP1F+w5n+W9W1hUSkDFeZ/w39265m2QOT82Vzz6fYA3uDw=="/>
         </item>
 
         <item>
