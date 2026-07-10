@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.7.10</title>
+            <pubDate>Fri, 10 Jul 2026 13:09:26 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26710</sparkle:version>
+            <sparkle:shortVersionString>26.7.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.7.10</h2><p>What's new in this release:</p><ul><li>Refactor DMG signing identity detection in create-dmg.sh</li>
+<li>fix(vapt): enable PKCE for all auth backends including auth.ve.ai</li>
+<li>fix(release): remove Slack webhook key from Info.plist + unblock release gate</li>
+<li>fix(auth): point auth base URL to production (auth.ve.ai)</li>
+<li>security(vapt L1): remediate + harden across code, XPC, webviews, logging</li>
+<li>fix(auth/dev): derive cookie domain from auth host so dev session holds</li>
+<li>fix(csrf): include PATCH in x-csrf-token state-changing methods</li>
+<li>chore(i18n): auto-extracted strings for new VAPT-solution UI</li>
+<li>revert(vapt sol1): remove orphaned VEAIXPCPrivilegedUI target; record AX-TCC finding</li>
+<li>Revert "security(vapt sol1): add sandboxed VEAIXPCPrivilegedUI XPC service (AX + input)"</li>
+<li>Revert "security(vapt sol1): route AX+input to sandboxed service, narrow execution service"</li>
+<li>docs(vapt sol1): mark XPC split IMPLEMENTED + add required runtime-test checklist</li>
+<li>security(vapt sol1): route AX+input to sandboxed service, narrow execution service</li>
+<li>security(vapt sol1): add sandboxed VEAIXPCPrivilegedUI XPC service (AX + input)</li>
+<li>security(vapt sol5): WS auth header cleanup — stop parsing/logging URL tokens</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.7.10/VE.dmg" length="53983996" type="application/octet-stream" sparkle:edSignature="vRMsUnb4h8Dzp+JCz8HzeTBdGrnwih3FE6bHy9g56xGAPTq14qM82HBR6RSVIPfsEv1QNjvLCg8AVU6UNZY3Bw=="/>
+        </item>
+
+        <item>
             <title>26.6.17</title>
             <pubDate>Tue, 16 Jun 2026 19:43:14 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
