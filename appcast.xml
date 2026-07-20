@@ -2,6 +2,31 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>26.7.20</title>
+            <pubDate>Mon, 20 Jul 2026 06:45:30 +0000</pubDate>
+            <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
+            <sparkle:version>26720</sparkle:version>
+            <sparkle:shortVersionString>26.7.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 VE v26.7.20</h2><p>What's new in this release:</p><ul><li>chore(release): bump to 26.7.20</li>
+<li>docs(security): correct stale ngrok comment in WebSocketRegistry (VAPT #10)</li>
+<li>fix(security): close VAPT #08 (dev endpoints) and #15 (XPC AppleScript)</li>
+<li>chore(release): appcast for v26.7.11</li>
+<li>fix(onboarding): route returning PKCE-login member straight in (real root cause)</li>
+<li>fix(onboarding): don't clear OAuth context mid-exchange (returning member misrouted)</li>
+<li>fix(onboarding): returning member with accessibleWorkspaces skips Create screen</li>
+<li>revert(onboarding): restore working workspace panel (Create card + ScrollView)</li>
+<li>fix(onboarding): drop lone ScrollView in join list to stop EXC_BAD_ACCESS</li>
+<li>fix(onboarding): show Join only (no Create) when the domain already has a workspace</li>
+<li>Revert "fix(onboarding): hide "Create workspace" when the domain already has one"</li>
+<li>fix(onboarding): hide "Create workspace" when the domain already has one</li>
+<li>fix(build): move BundleAssetSchemeHandler into a synced folder</li>
+<li>fix(auth): clear stale onboarding context when user has workspaces</li>
+<li>fix(release): truthful gh-upload check + guard Sparkle-key plist write</li></ul>]]></description>
+            <enclosure url="https://github.com/veaiinc/ve-macos-app-releases/releases/download/v26.7.20/VE.dmg" length="54045630" type="application/octet-stream" sparkle:edSignature="iRwutFCkFVBYc0lIaLFM6r5eurYVqL4I2rdAtEiYTILb1EpD6ACQq76UdjABGsbeodPhKcHWHXzBGSdelYAiCQ=="/>
+        </item>
+
+        <item>
             <title>26.7.11</title>
             <pubDate>Sat, 11 Jul 2026 07:22:01 +0000</pubDate>
             <link>https://github.com/veaiinc/ve-macos-app-releases/releases</link>
